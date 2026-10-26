@@ -126,6 +126,10 @@ main { max-width: 760px; margin: 0 auto; padding: 14px 16px 0; }
   border: 1px solid var(--rule-2); color: var(--ink-2); background: var(--card); white-space: nowrap;
 }
 .filters button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--paper); }
+/* Mouse and trackpad users can't swipe sideways, so wrap the chips onto extra lines instead. */
+@media (hover: hover) and (pointer: fine), (min-width: 700px) {
+  .filters { flex-wrap: wrap; overflow-x: visible; margin: 0 0 14px; padding: 2px 0 4px; }
+}
 
 /* Cards */
 .card {

@@ -1,5 +1,5 @@
 /* NeuroWatch service worker: app shell cached; feed.json network-first with offline fallback. */
-const VERSION = "nw-v1";
+const VERSION = "nw-v2";
 const SHELL = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {
