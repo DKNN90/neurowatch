@@ -135,8 +135,8 @@ def main(path):
             err(f"{w}: bad section")
         if e.get("tracker") not in (None, *tracker_ids):
             err(f"{w}: unknown tracker")
-        if e.get("url") and not str(e["url"]).startswith("https://"):
-            err(f"{w}: url must be https")
+        if not str(e.get("url", "")).startswith("https://"):
+            err(f"{w}: needs an https source url")
 
     for s in feed["sources"]:
         if s.get("section") not in SECTIONS:

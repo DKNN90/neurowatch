@@ -62,6 +62,10 @@ skip basics, and report numbers precisely.
 - If figures come from a press release or news report rather than the paper, say so in
   `caveats`.
 - **Plain, precise British English.** `summary` = one or two sentences. Bullets ≤ ~45 words.
+- **Everything must be sourced.** Every fact, number, date and description on a card, tracker
+  or Ahead entry must be stated in one of that item's own links. Do not add background from
+  general knowledge (mechanisms of action, prevalence, historical dates) unless you also add a
+  link that states it. Every `upcoming` entry needs its own `url`.
 - **Never quote more than a short phrase** from any source; paraphrase.
 - **Every item needs at least one source link**, with a peer-reviewed or official one wherever
   one exists. Label every link:

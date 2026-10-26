@@ -297,12 +297,12 @@
       ],
       "timeline": [
         {
-          "date": "2014-03-19",
+          "date": "2014",
           "label": "Cheshire West [2014] UKSC 19 sets the 'acid test'",
           "done": true
         },
         {
-          "date": "2019-05-16",
+          "date": "2019",
           "label": "Mental Capacity (Amendment) Act 2019 creates the Liberty Protection Safeguards",
           "done": true
         },
@@ -392,7 +392,7 @@
       ],
       "timeline": [
         {
-          "date": "2024-08",
+          "date": "2024-08-22",
           "label": "MHRA licenses lecanemab",
           "done": true
         },
@@ -449,6 +449,16 @@
           "label": "Alzheimer's Research UK — call for a Dementia Drugs Fund",
           "url": "https://www.alzheimersresearchuk.org/news/alzheimers-research-uk-calls-for-dedicated-dementia-drugs-fund/",
           "quality": "secondary"
+        },
+        {
+          "label": "GOV.UK — lecanemab licensed for early Alzheimer's disease (22 Aug 2024)",
+          "url": "https://gov.uk/government/news/lecanemab-licensed-for-adult-patients-in-the-early-stages-of-alzheimers-disease",
+          "quality": "official"
+        },
+        {
+          "label": "Lilly — Kisunla (donanemab) receives GB marketing authorisation",
+          "url": "https://lilly.gcs-web.com/news-releases/news-release-details/lillys-kisunlatm-donanemab-azbt-receives-marketing-authorization",
+          "quality": "company"
         }
       ],
       "updated": "2026-10-26"
@@ -583,7 +593,7 @@
       "stage": "stalled",
       "reached": "consultation",
       "stage_label": "Defeated at Commons second reading, Sept 2026",
-      "summary": "Private members' bills to allow terminally ill adults with capacity to request assistance to end their life. Relevant to MND clinicians and to capacity assessment.",
+      "summary": "Private members' bills to allow terminally ill adults to request assistance to end their life.",
       "points": [
         "The 2024–26 bill passed the Commons but fell at the end of the session after Lords committee stage.",
         "The reintroduced 2026–27 bill was defeated 286–270 at second reading on 11 September 2026 (free vote).",
@@ -665,7 +675,7 @@
       ],
       "timeline": [
         {
-          "date": "2023-04",
+          "date": "2023-04-25",
           "label": "FDA accelerated approval (US)",
           "done": true
         },
@@ -722,6 +732,16 @@
           "label": "MND Association — update on our tofersen campaign (5 Oct 2026)",
           "url": "https://www.mndassociation.org/media/latest-news/update-our-tofersen-campaign",
           "quality": "secondary"
+        },
+        {
+          "label": "Biogen — FDA accelerated approval of Qalsody (25 Apr 2023)",
+          "url": "https://investors.biogen.com/news-releases/news-release-details/fda-grants-accelerated-approval-Qalsodytm-Tofersen-sod1-als",
+          "quality": "company"
+        },
+        {
+          "label": "European Commission — Qalsody authorisation decision (29 May 2024)",
+          "url": "https://ec.europa.eu/health/documents/community-register/2024/20240529162142/dec_162142_en.pdf",
+          "quality": "official"
         }
       ],
       "updated": "2026-10-26"
@@ -737,7 +757,7 @@
       "short": "Ulefnersen",
       "stage": "phase3",
       "stage_label": "Phase 3 positive (topline) — regulatory discussions",
-      "summary": "Intrathecal antisense oligonucleotide targeting FUS, for the rare genetic FUS form of ALS (under 1% of MND), often with young onset and rapid progression.",
+      "summary": "Intrathecal antisense oligonucleotide targeting FUS, for the rare genetic FUS form of ALS (under 1% of MND).",
       "points": [
         "FUSION met its primary joint-rank endpoint (ALSFRS-R change, time to rescue, ventilation-free survival) at 72 weeks, p = 0.0005, n = 73.",
         "Otsuka holds the rights and plans expedited discussions with the FDA and other regulators; an early access programme is open.",
@@ -905,7 +925,7 @@
       "short": "COMBAT-ALS",
       "stage": "phase3",
       "stage_label": "Phase 2b/3 — topline due by end of 2026",
-      "summary": "Oral phosphodiesterase and macrophage migration inhibitory factor inhibitor tested in a 12-month randomised, placebo-controlled trial (n = 234, US and Canada).",
+      "summary": "Oral small molecule tested in a 12-month randomised, placebo-controlled trial (n = 234, US and Canada).",
       "points": [
         "Primary endpoint: Combined Assessment of Function and Survival (CAFS); secondary: ALSFRS-R, hand-held dynamometry, quality of life.",
         "Double-blind phase complete; six-month open-label extension continues."
@@ -1000,7 +1020,7 @@
       "short": "PrimeC",
       "stage": "phase2",
       "stage_label": "Phase 2b reported — phase 3 needed",
-      "summary": "Fixed-dose oral combination of two repurposed drugs, developed by NeuroSense for ALS.",
+      "summary": "Oral treatment developed by NeuroSense for ALS.",
       "points": [
         "NeuroSense reports its phase 2b met a primary endpoint of reduced blood TDP-43.",
         "The MND Association notes the analysis is unpublished and the trial was not designed to establish efficacy."
@@ -1041,7 +1061,7 @@
       "short": "TRCN-1023",
       "stage": "phase1",
       "stage_label": "First-in-human trial approved (UK, Netherlands)",
-      "summary": "Antisense oligonucleotide designed to restore UNC13A function, a target linked to TDP-43 loss of function in most ALS.",
+      "summary": "Antisense oligonucleotide that the developer describes as designed to restore UNC13A function.",
       "points": [
         "Trace Neuroscience received approval for a small first-in-human trial in the UK and the Netherlands.",
         "The MND Association noted the UK arm was still in set-up and safety is unproven."
@@ -1342,7 +1362,7 @@
       "source": "Lancet Primary Care",
       "type": "Community trial",
       "title": "Active Brains: online cognitive and lifestyle support for older adults with cognitive impairment",
-      "summary": "A UK primary-care trial in more than 11,500 people aged 60–85 compared brief advice with a brain-training website, with or without brief facilitator support, over 12 months.",
+      "summary": "A community-based UK trial in more than 11,500 people aged 60–85 compared brief advice with a brain-training website, with or without brief facilitator support, over 12 months.",
       "design": "Three arms: control (cognitive testing plus brief lifestyle advice); website (brain exercises and advice); website plus two brief facilitator contacts, usually a nurse. 12-month follow-up.",
       "points": [
         "University of Southampton release: 28% of the control group no longer met criteria for cognitive impairment at 12 months.",
@@ -1520,7 +1540,6 @@
       "points": [
         "The previous version passed the Commons in June 2025 but fell at the end of the 2024–26 session after Lords committee stage.",
         "Free vote; reports state the Prime Minister did not vote.",
-        "Eligibility under the bill would have required the person to have capacity to make the decision.",
         "Scotland's separate bill was voted down by MSPs in March 2026."
       ],
       "dates": "Second reading vote 11 September 2026.",
@@ -2070,7 +2089,7 @@
       "title": "First-in-human trial approved for UNC13A-targeting antisense TRCN-1023",
       "summary": "Trace Neuroscience received approval for a small first-in-human trial in the UK and the Netherlands; the UK arm was still in set-up.",
       "points": [
-        "TRCN-1023 is designed to restore UNC13A function, which is disrupted by TDP-43 loss of function.",
+        "The developer describes TRCN-1023 as designed to restore UNC13A function.",
         "Safety has not yet been tested in people."
       ],
       "tracker": "trcn-1023",
@@ -2187,7 +2206,7 @@
       "summary": "NICE added links to its overarching guidelines, including on medicines associated with dependence or withdrawal, to the 2016 MND guideline. The update page lists no wider review.",
       "points": [
         "Previous changes: links to technology appraisals (September 2024) and a pulse oximetry note (October 2022).",
-        "Cognitive and behavioural assessment recommendations are unchanged since 2016."
+        "The update history lists no changes to recommendations since 2016 beyond added links and notes."
       ],
       "links": [
         {
@@ -2204,7 +2223,8 @@
       "end": "2026-10-30",
       "section": "mnd",
       "title": "NEALS Annual Meeting (AP-101 presentation 28 Oct)",
-      "tracker": "ap-101"
+      "tracker": "ap-101",
+      "url": "https://www.biospace.com/press-releases/al-s-pharma-reports-new-ap-101-phase-2-weight-data-and-outlines-phase-3-clinical-trial-in-als-at-2026-neals-annual-meeting"
     },
     {
       "date": "2026-12-09",
@@ -2219,21 +2239,24 @@
       "approx": true,
       "section": "mnd",
       "title": "COMBAT-ALS (ibudilast) topline results expected by end of 2026",
-      "tracker": "combat-als"
+      "tracker": "combat-als",
+      "url": "https://www.rttnews.com/3693723/mnov-stock-in-focus-as-combat-als-completes-double-blind-phase-results-due-by-year-end.aspx"
     },
     {
       "date": "2026-12-31",
       "approx": true,
       "section": "mnd",
       "title": "Next drug due to join MND-SMART (later in 2026)",
-      "tracker": "mnd-smart"
+      "tracker": "mnd-smart",
+      "url": "https://mnd-smart.org/node/139"
     },
     {
       "date": "2026-12-31",
       "approx": true,
       "section": "practice",
       "title": "Revised NHS England MCA/DoLS training materials due (by December)",
-      "tracker": "dol-lps"
+      "tracker": "dol-lps",
+      "url": "https://www.gov.uk/government/publications/changes-to-the-definition-of-deprivation-of-liberty/uk-supreme-court-2026-judgment-on-what-constitutes-a-deprivation-of-liberty"
     },
     {
       "date": "2027-02-10",
@@ -2268,7 +2291,8 @@
     {
       "date": "2027-06-21",
       "section": "mnd",
-      "title": "Global MND/ALS Awareness Day"
+      "title": "Global MND/ALS Awareness Day",
+      "url": "https://www.mndassociation.org/about-us/who-we-are/mnd-awareness-day/"
     },
     {
       "date": "2027-06-22",
@@ -2283,7 +2307,8 @@
       "approx": true,
       "section": "mnd",
       "title": "AP-101 phase 3 planned to start (2027)",
-      "tracker": "ap-101"
+      "tracker": "ap-101",
+      "url": "https://www.biospace.com/press-releases/al-s-pharma-reports-new-ap-101-phase-2-weight-data-and-outlines-phase-3-clinical-trial-in-als-at-2026-neals-annual-meeting"
     },
     {
       "date": "2027-07-18",
