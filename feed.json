@@ -1,0 +1,2305 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-26T19:00:00Z",
+  "next_update": "2026-11-02",
+  "about": "A personal tracker of clinical neuropsychology research and UK practice developments, with a dedicated section on motor neurone disease. Each item is a neutral summary of a published study or public document: for research, the design, findings and stated limitations; for policy, what it says, who it affects and when. Every item links to its source.",
+  "coverage_note": "Seed edition covering publications up to 26 October 2026, weighted to the preceding three months. Updated every Monday.",
+  "ahead_blurb": "Conferences, decision dates, deadlines and expected trial readouts across all three sections.",
+  "sections": [
+    {
+      "id": "research",
+      "name": "Research",
+      "short": "Research",
+      "title": "Neuropsychology research",
+      "blurb": "New studies relevant to clinical neuropsychology: dementia, brain injury and stroke, neurological conditions, functional presentations, and assessment methods.",
+      "topics": [
+        {
+          "id": "dementia",
+          "label": "Dementia & ageing"
+        },
+        {
+          "id": "brain-injury",
+          "label": "Brain injury & stroke"
+        },
+        {
+          "id": "neuro-conditions",
+          "label": "MS, HD & neuro-oncology"
+        },
+        {
+          "id": "functional",
+          "label": "Functional disorders"
+        },
+        {
+          "id": "assessment",
+          "label": "Assessment & methods"
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "name": "Practice",
+      "short": "Practice",
+      "title": "UK practice & guidance",
+      "blurb": "UK law, guidance and service developments that bear on clinical neuropsychology: the courts, DHSC, NICE, NHS England, UKRI, the BPS and the HCPC.",
+      "tracker_blurb": "Multi-step files followed through to a conclusion, most recently active first.",
+      "topics": [
+        {
+          "id": "capacity",
+          "label": "Capacity & law"
+        },
+        {
+          "id": "dementia-care",
+          "label": "Dementia pathway"
+        },
+        {
+          "id": "abi-policy",
+          "label": "Brain injury policy"
+        },
+        {
+          "id": "profession",
+          "label": "Profession"
+        },
+        {
+          "id": "end-of-life",
+          "label": "End of life"
+        }
+      ]
+    },
+    {
+      "id": "mnd",
+      "name": "MND",
+      "short": "MND",
+      "title": "Motor neurone disease",
+      "blurb": "Cognition and behaviour across the ALS–FTD spectrum, trials and treatments, UK services and guidance, and wider MND science.",
+      "pipeline_blurb": "Therapies and platform trials being followed. The bar shows the furthest stage reached: phase 1, 2, 3, regulatory review, licensed.",
+      "topics": [
+        {
+          "id": "cognition",
+          "label": "Cognition & behaviour"
+        },
+        {
+          "id": "trials",
+          "label": "Trials & treatments"
+        },
+        {
+          "id": "services",
+          "label": "Services & guidance"
+        },
+        {
+          "id": "science",
+          "label": "MND science"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "springer-np",
+      "name": "Springer Nature — neuropsychology articles (incl. J Neurol)",
+      "section": "research",
+      "url": "https://link.springer.com/subjects/neuropsychology",
+      "status": "checked"
+    },
+    {
+      "id": "acn",
+      "name": "Archives of Clinical Neuropsychology",
+      "section": "research",
+      "url": "https://academic.oup.com/acn/issue",
+      "status": "checked"
+    },
+    {
+      "id": "jins",
+      "name": "Journal of the International Neuropsychological Society",
+      "section": "research",
+      "url": "https://www.cambridge.org/core/journals/journal-of-the-international-neuropsychological-society",
+      "status": "unreachable"
+    },
+    {
+      "id": "jnp",
+      "name": "Journal of Neuropsychology (BPS)",
+      "section": "research",
+      "url": "https://bpspsychub.onlinelibrary.wiley.com/journal/17486653",
+      "status": "unreachable"
+    },
+    {
+      "id": "nrehab",
+      "name": "Neuropsychological Rehabilitation",
+      "section": "research",
+      "url": "https://www.tandfonline.com/toc/pnrh20/current",
+      "status": "unreachable"
+    },
+    {
+      "id": "tcn",
+      "name": "The Clinical Neuropsychologist",
+      "section": "research",
+      "url": "https://www.tandfonline.com/toc/ntcn20/current",
+      "status": "unreachable"
+    },
+    {
+      "id": "pubmed",
+      "name": "PubMed",
+      "section": "research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "status": "unreachable"
+    },
+    {
+      "id": "aruk",
+      "name": "Alzheimer's Research UK — news",
+      "section": "research",
+      "url": "https://www.alzheimersresearchuk.org/about-us/latest/news/",
+      "status": "checked"
+    },
+    {
+      "id": "ukri",
+      "name": "UKRI — news",
+      "section": "research",
+      "url": "https://www.ukri.org/news/",
+      "status": "checked"
+    },
+    {
+      "id": "govuk-dhsc",
+      "name": "DHSC / GOV.UK",
+      "section": "practice",
+      "url": "https://www.gov.uk/government/organisations/department-of-health-and-social-care",
+      "status": "checked"
+    },
+    {
+      "id": "nice",
+      "name": "NICE — guidance in development",
+      "section": "practice",
+      "url": "https://www.nice.org.uk/guidance/inprogress",
+      "status": "checked"
+    },
+    {
+      "id": "parliament",
+      "name": "UK Parliament — bills",
+      "section": "practice",
+      "url": "https://bills.parliament.uk/",
+      "status": "checked"
+    },
+    {
+      "id": "bps",
+      "name": "British Psychological Society — news",
+      "section": "practice",
+      "url": "https://www.bps.org.uk/news",
+      "status": "checked"
+    },
+    {
+      "id": "hcpc",
+      "name": "HCPC — registration and news",
+      "section": "practice",
+      "url": "https://www.hcpc-uk.org/news-and-events/news/",
+      "status": "checked"
+    },
+    {
+      "id": "nhse",
+      "name": "NHS England — news",
+      "section": "practice",
+      "url": "https://www.england.nhs.uk/news/",
+      "status": "unreachable"
+    },
+    {
+      "id": "headway",
+      "name": "Headway — news and campaigns",
+      "section": "practice",
+      "url": "https://www.headway.org.uk/news-and-campaigns/news/",
+      "status": "checked"
+    },
+    {
+      "id": "mclp",
+      "name": "Mental Capacity Law and Policy (39 Essex Chambers)",
+      "section": "practice",
+      "url": "https://www.mentalcapacitylawandpolicy.org.uk/",
+      "status": "checked"
+    },
+    {
+      "id": "mnda-research",
+      "name": "MND Association — research news",
+      "section": "mnd",
+      "url": "https://www.mndassociation.org/research/latest-news",
+      "status": "checked"
+    },
+    {
+      "id": "mnda-news",
+      "name": "MND Association — latest news",
+      "section": "mnd",
+      "url": "https://www.mndassociation.org/media/latest-news",
+      "status": "checked"
+    },
+    {
+      "id": "mnd-smart",
+      "name": "MND-SMART",
+      "section": "mnd",
+      "url": "https://mnd-smart.org/",
+      "status": "checked"
+    },
+    {
+      "id": "experts-als",
+      "name": "EXPERTS-ALS (UK MND Research Institute)",
+      "section": "mnd",
+      "url": "https://www.mndassociation.org/research/clinical-trials/treatment-trials/experts-als",
+      "status": "checked"
+    },
+    {
+      "id": "nice-tofersen",
+      "name": "NICE — tofersen appraisal (ID3767)",
+      "section": "mnd",
+      "url": "https://www.nice.org.uk/guidance/indevelopment/gid-hst10062",
+      "status": "checked"
+    },
+    {
+      "id": "alsfd",
+      "name": "Amyotrophic Lateral Sclerosis and Frontotemporal Degeneration (journal)",
+      "section": "mnd",
+      "url": "https://www.tandfonline.com/journals/iafd20",
+      "status": "unreachable"
+    },
+    {
+      "id": "symposium",
+      "name": "International Symposium on ALS/MND",
+      "section": "mnd",
+      "url": "https://symposium.mndassociation.org/about-the-event/future-dates",
+      "status": "checked"
+    },
+    {
+      "id": "mnd-scotland",
+      "name": "MND Scotland — news",
+      "section": "mnd",
+      "url": "https://mndscotland.org.uk/news/",
+      "status": "unreachable"
+    },
+    {
+      "id": "alsnt",
+      "name": "ALS News Today (pointer only)",
+      "section": "mnd",
+      "url": "https://alsnewstoday.com/",
+      "status": "checked"
+    }
+  ],
+  "trackers": [
+    {
+      "id": "dol-lps",
+      "section": "practice",
+      "kind": "guidance",
+      "topics": [
+        "capacity"
+      ],
+      "name": "Deprivation of liberty after the AGNI judgment, and the Liberty Protection Safeguards",
+      "short": "Deprivation of liberty / LPS",
+      "stage": "in_effect",
+      "stage_label": "New legal test in force; government guidance interim",
+      "summary": "The Supreme Court replaced the Cheshire West acid test in June 2026. DoLS remains the authorisation scheme in England and Wales; the Liberty Protection Safeguards, legislated in 2019, have never been brought into force.",
+      "points": [
+        "Whether arrangements amount to a deprivation of liberty is now a multifactorial judgment about the person's concrete situation, not a single acid test.",
+        "A person lacking capacity on residence and care can give subjective consent (awareness, basic understanding, acceptance) that takes the arrangements outside Article 5; serious doubt means consent cannot be concluded.",
+        "DHSC guidance asks bodies to review existing DoLS authorisations as soon as practicable, and to take a cautious approach to borderline cases in the short term.",
+        "The 2008 DoLS Code of Practice was republished on 2 June 2026 but does not fully reflect the new test."
+      ],
+      "timeline": [
+        {
+          "date": "2014-03-19",
+          "label": "Cheshire West [2014] UKSC 19 sets the 'acid test'",
+          "done": true
+        },
+        {
+          "date": "2019-05-16",
+          "label": "Mental Capacity (Amendment) Act 2019 creates the Liberty Protection Safeguards",
+          "done": true
+        },
+        {
+          "date": "2023-04",
+          "label": "Government postpones LPS beyond the then Parliament",
+          "done": true
+        },
+        {
+          "date": "2025-10-18",
+          "label": "Government announces an LPS consultation for the first half of 2026",
+          "done": true
+        },
+        {
+          "date": "2026-06-02",
+          "label": "AGNI Reference [2026] UKSC 16 overrules Cheshire West",
+          "done": true
+        },
+        {
+          "date": "2026-06-15",
+          "label": "DHSC publishes guidance on the new test",
+          "done": true
+        },
+        {
+          "date": "2026-07-30",
+          "label": "NHS England updates MCA/DoLS e-learning",
+          "done": true
+        },
+        {
+          "date": "2026-09-22",
+          "label": "DHSC guidance last updated",
+          "done": true
+        },
+        {
+          "date": "2026-12",
+          "label": "Revised NHS England MCA/DoLS training materials due",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "DHSC says it will publish further interim guidance with case studies. This feed found no published LPS consultation or revised MCA Code of Practice as of 26 October 2026; the consultation announced in October 2025 had been expected in the first half of 2026.",
+      "bodies": [
+        "UK Supreme Court",
+        "DHSC",
+        "Ministry of Justice"
+      ],
+      "links": [
+        {
+          "label": "GOV.UK — UK Supreme Court 2026 judgment on what constitutes a deprivation of liberty",
+          "url": "https://www.gov.uk/government/publications/changes-to-the-definition-of-deprivation-of-liberty/uk-supreme-court-2026-judgment-on-what-constitutes-a-deprivation-of-liberty",
+          "quality": "official"
+        },
+        {
+          "label": "39 Essex Chambers — case summary of [2026] UKSC 16",
+          "url": "https://www.39essex.com/wp-content/uploads/2026/06/2026-UKSC-16-Summary.pdf",
+          "quality": "secondary"
+        },
+        {
+          "label": "Browne Jacobson — Supreme Court overrules Cheshire West",
+          "url": "https://brownejacobson.com/insights/supreme-court-overrules-cheshire-west-deprivation-of-liberty-reshaped",
+          "quality": "secondary"
+        },
+        {
+          "label": "Browne Jacobson — LPS 2026 consultation announced (Oct 2025)",
+          "url": "https://www.brownejacobson.com/insights/liberty-protection-safeguards-2026-consultation-announced",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "amyloid-mabs",
+      "section": "practice",
+      "kind": "guidance",
+      "topics": [
+        "dementia-care"
+      ],
+      "name": "Lecanemab and donanemab: NICE appraisals",
+      "short": "Lecanemab / donanemab (NICE)",
+      "stage": "development",
+      "stage_label": "Rejected 2025 — reconsideration and commercial talks",
+      "summary": "Anti-amyloid antibodies licensed by the MHRA for early Alzheimer's disease. NICE has not recommended either for NHS use; appeals reopened two points of the appraisal in 2026.",
+      "points": [
+        "NICE's June 2025 position: benefits for MCI or mild dementia due to AD too small to justify the cost.",
+        "Appeal panels upheld grounds on infusion-cost estimates and carer utility values for both drugs, plus two procedural points for donanemab.",
+        "As of 29 July 2026, Eisai had accepted the committee's assumptions as the basis for commercial talks with NHS England; Lilly had not."
+      ],
+      "timeline": [
+        {
+          "date": "2024-08",
+          "label": "MHRA licenses lecanemab",
+          "done": true
+        },
+        {
+          "date": "2024-10",
+          "label": "MHRA licenses donanemab",
+          "done": true
+        },
+        {
+          "date": "2025-06",
+          "label": "NICE final draft guidance does not recommend either drug",
+          "done": true
+        },
+        {
+          "date": "2026-01-13",
+          "label": "Appeal panels hear Eisai and Lilly appeals (13–14 Jan)",
+          "done": true
+        },
+        {
+          "date": "2026-03",
+          "label": "Appeals upheld on specific points; appraisals returned to committee",
+          "done": true
+        },
+        {
+          "date": "2026-07-08",
+          "label": "Committee reconsiders the upheld points",
+          "done": true
+        },
+        {
+          "date": "2026-07-29",
+          "label": "NICE, Eisai, Lilly and NHS England give status updates on talks",
+          "done": true
+        }
+      ],
+      "next": "No committee date or decision deadline has been set. Alzheimer's Research UK has proposed a Dementia Drugs Fund to provide interim access.",
+      "bodies": [
+        "NICE",
+        "NHS England",
+        "Eisai",
+        "Lilly"
+      ],
+      "links": [
+        {
+          "label": "Pharmaceutical Journal — companies in talks with NICE (30 Jul 2026)",
+          "url": "https://pharmaceutical-journal.com/article/news/pharmaceutical-companies-in-talks-with-nice-about-access-to-alzheimers-drugs",
+          "quality": "secondary"
+        },
+        {
+          "label": "Alzheimer Europe — NICE to reconsider following successful appeals",
+          "url": "https://www.alzheimer-europe.org/news/nice-reconsider-lecanemab-and-donanemab-following-successful-appeals",
+          "quality": "secondary"
+        },
+        {
+          "label": "Alzheimer's Research UK — call for a Dementia Drugs Fund",
+          "url": "https://www.alzheimersresearchuk.org/news/alzheimers-research-uk-calls-for-dedicated-dementia-drugs-fund/",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "dementia-diagnosis",
+      "section": "practice",
+      "kind": "guidance",
+      "topics": [
+        "dementia-care"
+      ],
+      "name": "Faster dementia diagnosis: Dementia Challenge, BARBARA and blood biomarkers",
+      "short": "Dementia diagnosis programme",
+      "stage": "development",
+      "stage_label": "Projects entering NHS testing",
+      "summary": "Government-funded programmes to shorten time to dementia diagnosis and speed trial recruitment, including remote digital cognitive assessment and blood biomarkers in memory services.",
+      "points": [
+        "Target set by the Dementia Challenge: 92% of people diagnosed within 18 weeks of referral, against around 60% now.",
+        "Nine projects enter staged NHS testing; continued funding depends on results.",
+        "The ADAPT study is evaluating plasma p-tau217 in NHS memory services, focusing on its effect on diagnostic speed, clinical decisions and outcomes rather than accuracy.",
+        "The BARBARA platform will link UK health data, cohorts and registries to identify trial participants."
+      ],
+      "timeline": [
+        {
+          "date": "2025-08",
+          "label": "ADAPT p-tau217 study starts recruiting (aim: 1,100 people, 20 NHS sites)",
+          "done": true
+        },
+        {
+          "date": "2026-10-02",
+          "label": "UKRI launches £80m Dementia Challenge",
+          "done": true
+        },
+        {
+          "date": "2026-10-08",
+          "label": "Government announces £48m BARBARA Alliance",
+          "done": true
+        },
+        {
+          "date": "2026-10-22",
+          "label": "AD-SMART platform trial launches",
+          "done": true
+        }
+      ],
+      "next": "Projects report through UKRI's staged funding; no milestone dates published yet.",
+      "bodies": [
+        "UKRI",
+        "DHSC",
+        "NHS England"
+      ],
+      "links": [
+        {
+          "label": "UKRI — £80m challenge for faster, better dementia diagnosis",
+          "url": "https://www.ukri.org/news/80m-challenge-for-faster-better-dementia-diagnosis-launched/",
+          "quality": "official"
+        },
+        {
+          "label": "GOV.UK — Prime Minister's dementia announcement (8 Oct 2026)",
+          "url": "https://www.gov.uk/government/news/i-have-real-hope-that-britain-can-come-together-to-defeat-dementia-pm",
+          "quality": "official"
+        },
+        {
+          "label": "Healthcare Management UK — ADAPT trial launch",
+          "url": "https://www.healthcare-management.uk/uk-trial-launches-transform-alzheimer-diagnosis",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "abi-plan",
+      "section": "practice",
+      "kind": "guidance",
+      "topics": [
+        "abi-policy"
+      ],
+      "name": "Acquired Brain Injury Action Plan (England)",
+      "short": "ABI Action Plan",
+      "stage": "stalled",
+      "reached": "proposed",
+      "stage_label": "Overdue — no new publication date",
+      "summary": "A cross-government plan for people with acquired brain injury, first promised as a strategy in 2021 and repeatedly delayed.",
+      "points": [
+        "The government pledged an action plan for 2025, then in December 2025 committed to publication by the end of June 2026.",
+        "Headway reported on 1 July 2026 that the deadline had passed with no update on timing.",
+        "This feed found no publication as of 26 October 2026."
+      ],
+      "timeline": [
+        {
+          "date": "2021-11",
+          "label": "Brain injury strategy first promised",
+          "done": true
+        },
+        {
+          "date": "2025-12-04",
+          "label": "Commons debate; minister commits to publish by end of June 2026",
+          "done": true
+        },
+        {
+          "date": "2026-06-30",
+          "label": "Publication deadline passes",
+          "done": true
+        }
+      ],
+      "next": "No date announced.",
+      "bodies": [
+        "DHSC"
+      ],
+      "links": [
+        {
+          "label": "Headway — another delay to government's ABI action plan (1 Jul 2026)",
+          "url": "https://www.headway.org.uk/news-and-campaigns/news/2026/another-delay-to-government-s-abi-action-plan/",
+          "quality": "secondary"
+        },
+        {
+          "label": "Hansard — Acquired Brain Injury Action Plan debate (4 Dec 2025)",
+          "url": "https://hansard.parliament.uk/commons/2025-12-04/debates/25120424000001/AcquiredBrainInjuryActionPlan",
+          "quality": "official"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "assisted-dying",
+      "section": "practice",
+      "kind": "guidance",
+      "topics": [
+        "end-of-life"
+      ],
+      "name": "Assisted dying legislation (England and Wales)",
+      "short": "Assisted dying bill",
+      "stage": "stalled",
+      "reached": "consultation",
+      "stage_label": "Defeated at Commons second reading, Sept 2026",
+      "summary": "Private members' bills to allow terminally ill adults with capacity to request assistance to end their life. Relevant to MND clinicians and to capacity assessment.",
+      "points": [
+        "The 2024–26 bill passed the Commons but fell at the end of the session after Lords committee stage.",
+        "The reintroduced 2026–27 bill was defeated 286–270 at second reading on 11 September 2026 (free vote).",
+        "Scotland's separate bill was voted down by MSPs in March 2026."
+      ],
+      "timeline": [
+        {
+          "date": "2024-11-29",
+          "label": "Commons second reading passes 330–275",
+          "done": true
+        },
+        {
+          "date": "2025-06-20",
+          "label": "Commons third reading passes",
+          "done": true
+        },
+        {
+          "date": "2025-11-14",
+          "label": "Lords committee stage begins (over 1,200 amendments tabled)",
+          "done": true
+        },
+        {
+          "date": "2026-03",
+          "label": "Scottish bill defeated at final vote",
+          "done": true
+        },
+        {
+          "date": "2026",
+          "label": "Bill falls at end of the 2024–26 session",
+          "done": true
+        },
+        {
+          "date": "2026-09-11",
+          "label": "Reintroduced bill defeated at second reading, 286–270",
+          "done": true
+        }
+      ],
+      "next": "Coverage of the vote reports the issue is unlikely to return before a general election; any further attempt would need a new private member's bill.",
+      "bodies": [
+        "House of Commons",
+        "House of Lords"
+      ],
+      "links": [
+        {
+          "label": "UK Parliament — Terminally Ill Adults (End of Life) Bill 2026–27",
+          "url": "https://bills.parliament.uk/bills/4157",
+          "quality": "official"
+        },
+        {
+          "label": "Institute for Government — what happened to the assisted dying bill",
+          "url": "https://www.instituteforgovernment.org.uk/explainer/kim-leadbeaters-assisted-dying-bill",
+          "quality": "secondary"
+        },
+        {
+          "label": "Pharmaceutical Journal — assisted dying bill defeated",
+          "url": "https://pharmaceutical-journal.com/article/news/assisted-dying-bill-defeated-in-house-of-commons",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "tofersen",
+      "section": "mnd",
+      "kind": "trial",
+      "topics": [
+        "trials",
+        "services"
+      ],
+      "name": "Tofersen (SOD1-ALS)",
+      "short": "Tofersen",
+      "stage": "approved",
+      "stage_label": "Licensed (MHRA 2025) — NICE decision expected 2027",
+      "summary": "Intrathecal antisense oligonucleotide that lowers SOD1 protein, for ALS caused by SOD1 variants (about 2% of people with MND).",
+      "points": [
+        "MHRA approved tofersen on 22 July 2025 via the International Recognition Procedure.",
+        "NHS access is currently through Biogen's free early access programme; the MND Association reports earlier local refusals over administration capacity have largely eased.",
+        "NICE is appraising it through the Highly Specialised Technologies route (ID3767)."
+      ],
+      "timeline": [
+        {
+          "date": "2023-04",
+          "label": "FDA accelerated approval (US)",
+          "done": true
+        },
+        {
+          "date": "2024-05-29",
+          "label": "European Commission authorisation",
+          "done": true
+        },
+        {
+          "date": "2024-11-18",
+          "label": "NICE moves the appraisal to the HST route",
+          "done": true
+        },
+        {
+          "date": "2025-07-22",
+          "label": "MHRA approval (Great Britain)",
+          "done": true
+        },
+        {
+          "date": "2026-02-24",
+          "label": "NICE scope consultation",
+          "done": true
+        },
+        {
+          "date": "2026-10-22",
+          "label": "NICE committee meeting 1",
+          "done": true
+        },
+        {
+          "date": "2027-03-17",
+          "label": "NICE expected publication date",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "The MND Association expects no final decision from the first committee meeting; NICE lists 17 March 2027 as the expected publication date.",
+      "bodies": [
+        "Biogen",
+        "MHRA",
+        "NICE"
+      ],
+      "links": [
+        {
+          "label": "NICE — Tofersen for treating ALS caused by SOD1 gene mutations (ID3767)",
+          "url": "https://www.nice.org.uk/guidance/indevelopment/gid-hst10062",
+          "quality": "official"
+        },
+        {
+          "label": "GOV.UK — Tofersen approved by the MHRA",
+          "url": "https://www.gov.uk/government/news/tofersen-approved-by-the-mhra-to-treat-rare-inherited-form-of-motor-neurone-disease",
+          "quality": "official"
+        },
+        {
+          "label": "MND Association — update on our tofersen campaign (5 Oct 2026)",
+          "url": "https://www.mndassociation.org/media/latest-news/update-our-tofersen-campaign",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "ulefnersen",
+      "section": "mnd",
+      "kind": "trial",
+      "topics": [
+        "trials"
+      ],
+      "name": "Ulefnersen (FUS-ALS)",
+      "short": "Ulefnersen",
+      "stage": "phase3",
+      "stage_label": "Phase 3 positive (topline) — regulatory discussions",
+      "summary": "Intrathecal antisense oligonucleotide targeting FUS, for the rare genetic FUS form of ALS (under 1% of MND), often with young onset and rapid progression.",
+      "points": [
+        "FUSION met its primary joint-rank endpoint (ALSFRS-R change, time to rescue, ventilation-free survival) at 72 weeks, p = 0.0005, n = 73.",
+        "Otsuka holds the rights and plans expedited discussions with the FDA and other regulators; an early access programme is open.",
+        "Full data are yet to be presented or peer reviewed."
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-22",
+          "label": "Ionis and Otsuka announce positive FUSION topline results",
+          "done": true
+        },
+        {
+          "date": "2027",
+          "label": "Full results at a medical congress and in a peer-reviewed paper",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "Detailed results and regulatory submissions; no submission dates given.",
+      "bodies": [
+        "Ionis",
+        "Otsuka",
+        "FDA"
+      ],
+      "links": [
+        {
+          "label": "Ionis — positive topline results from phase 3 FUSION",
+          "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-announces-positive-topline-results-phase-3-fusion-study",
+          "quality": "company"
+        },
+        {
+          "label": "MND Association — FUSION results summary",
+          "url": "https://www.mndassociation.org/media/latest-news/drug-trial-rare-genetic-form-mnd-results-look-encouraging",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "experts-als",
+      "section": "mnd",
+      "kind": "trial",
+      "topics": [
+        "trials"
+      ],
+      "name": "EXPERTS-ALS platform (UK)",
+      "short": "EXPERTS-ALS",
+      "stage": "phase2",
+      "stage_label": "Screening platform — 2 drugs remaining",
+      "summary": "UK MND Research Institute platform that screens repurposed drugs by their effect on serum neurofilament light; drugs that lower NfL advance to phase 3.",
+      "points": [
+        "Dropped so far: metformin and nifedipine (August 2026), ropinirole (October 2026).",
+        "Still recruiting: salbutamol and doxycycline. Further candidates are being identified.",
+        "Funded by NIHR, the MND Association, LifeArc and My Name'5 Doddie Foundation."
+      ],
+      "timeline": [
+        {
+          "date": "2026-08-10",
+          "label": "First results: metformin and nifedipine dropped (no NfL reduction)",
+          "done": true
+        },
+        {
+          "date": "2026-10-12",
+          "label": "Ropinirole dropped after interim analysis",
+          "done": true
+        }
+      ],
+      "next": "New drugs to be added; salbutamol and doxycycline continue to interim analysis.",
+      "bodies": [
+        "UK MND Research Institute",
+        "NIHR",
+        "MND Association"
+      ],
+      "links": [
+        {
+          "label": "MND Association — EXPERTS-ALS drops ropinirole",
+          "url": "https://www.mndassociation.org/media/latest-news/experts-als-study-drops-ropinirole-after-interim-analysis",
+          "quality": "secondary"
+        },
+        {
+          "label": "MND Association — EXPERTS-ALS first results",
+          "url": "https://www.mndassociation.org/media/latest-news/first-results-new-style-trial-platform-experts-als",
+          "quality": "secondary"
+        },
+        {
+          "label": "MND Association — EXPERTS-ALS study page",
+          "url": "https://www.mndassociation.org/research/clinical-trials/treatment-trials/experts-als",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "mnd-smart",
+      "section": "mnd",
+      "kind": "trial",
+      "topics": [
+        "trials"
+      ],
+      "name": "MND-SMART platform (UK)",
+      "short": "MND-SMART",
+      "stage": "phase3",
+      "stage_label": "Tacrolimus arm recruiting; next drug due",
+      "summary": "Multi-arm, multi-stage phase 3 platform testing repurposed drugs for disease progression and survival, open at 27 UK centres.",
+      "points": [
+        "Memantine and trazodone arms stopped for lack of benefit in 2023; amantadine stopped in March 2026.",
+        "Tacrolimus, added in early 2025, continues to recruit.",
+        "The MND Association tripled its funding and is now the primary funder."
+      ],
+      "timeline": [
+        {
+          "date": "2023-09-27",
+          "label": "Memantine and trazodone arms stopped",
+          "done": true
+        },
+        {
+          "date": "2025",
+          "label": "Tacrolimus arm opens",
+          "done": true
+        },
+        {
+          "date": "2026-03-03",
+          "label": "Amantadine stopped after stage-2 interim analysis",
+          "done": true
+        },
+        {
+          "date": "2026-12",
+          "label": "Next drug scheduled to join (later in 2026)",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "A further drug, not yet named publicly, is due to join later in 2026.",
+      "bodies": [
+        "University of Edinburgh",
+        "MND Association"
+      ],
+      "links": [
+        {
+          "label": "MND-SMART — amantadine stage 2 interim analysis results",
+          "url": "https://mnd-smart.org/node/139",
+          "quality": "secondary"
+        },
+        {
+          "label": "MND Association — MND-SMART results announced",
+          "url": "https://www.mndassociation.org/media/latest-news/results-announced-uk-trial-mnd-smart-co-funded-mnd-association",
+          "quality": "secondary"
+        },
+        {
+          "label": "MND-SMART — update on memantine, trazodone and placebo arms (27 Sep 2023)",
+          "url": "https://mnd-smart.org/node/65",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "combat-als",
+      "section": "mnd",
+      "kind": "trial",
+      "topics": [
+        "trials"
+      ],
+      "name": "Ibudilast (MN-166) — COMBAT-ALS",
+      "short": "COMBAT-ALS",
+      "stage": "phase3",
+      "stage_label": "Phase 2b/3 — topline due by end of 2026",
+      "summary": "Oral phosphodiesterase and macrophage migration inhibitory factor inhibitor tested in a 12-month randomised, placebo-controlled trial (n = 234, US and Canada).",
+      "points": [
+        "Primary endpoint: Combined Assessment of Function and Survival (CAFS); secondary: ALSFRS-R, hand-held dynamometry, quality of life.",
+        "Double-blind phase complete; six-month open-label extension continues."
+      ],
+      "timeline": [
+        {
+          "date": "2026-09-24",
+          "label": "Company reports double-blind phase complete",
+          "done": true
+        },
+        {
+          "date": "2026-12",
+          "label": "Topline results from the double-blind period",
+          "done": false,
+          "approx": true
+        },
+        {
+          "date": "2027-03",
+          "label": "Last patient, last visit (open-label extension)",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "Topline results expected by the end of 2026.",
+      "bodies": [
+        "MediciNova"
+      ],
+      "links": [
+        {
+          "label": "RTTNews — COMBAT-ALS completes double-blind phase (24 Sep 2026)",
+          "url": "https://www.rttnews.com/3693723/mnov-stock-in-focus-as-combat-als-completes-double-blind-phase-results-due-by-year-end.aspx",
+          "quality": "lower"
+        },
+        {
+          "label": "MediciNova — COMBAT-ALS update",
+          "url": "https://investors.medicinova.com/news-releases/news-release-details/medicinova-announces-update-and-basic-characteristic-randomized",
+          "quality": "company"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "ap-101",
+      "section": "mnd",
+      "kind": "trial",
+      "topics": [
+        "trials"
+      ],
+      "name": "AP-101 (misfolded-SOD1 antibody)",
+      "short": "AP-101",
+      "stage": "phase2",
+      "stage_label": "Phase 3 planned for 2027",
+      "summary": "Intravenous human antibody against misfolded SOD1, being developed for sporadic and SOD1 ALS.",
+      "points": [
+        "Phase 2 (n = 73) met its safety and tolerability endpoint; efficacy signals reported so far are post hoc.",
+        "Planned phase 3: about 300 participants, 2:1 randomisation, 12 months, joint ALSFRS-R and survival analysis."
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-26",
+          "label": "Phase 2 weight analyses and phase 3 design announced ahead of NEALS",
+          "done": true
+        },
+        {
+          "date": "2027",
+          "label": "Phase 3 start planned",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "Presentation at NEALS (28 October 2026); phase 3 start in 2027.",
+      "bodies": [
+        "AL-S Pharma"
+      ],
+      "links": [
+        {
+          "label": "AL-S Pharma press release via BioSpace (26 Oct 2026)",
+          "url": "https://www.biospace.com/press-releases/al-s-pharma-reports-new-ap-101-phase-2-weight-data-and-outlines-phase-3-clinical-trial-in-als-at-2026-neals-annual-meeting",
+          "quality": "company"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "primec",
+      "section": "mnd",
+      "kind": "trial",
+      "topics": [
+        "trials"
+      ],
+      "name": "PrimeC (NeuroSense)",
+      "short": "PrimeC",
+      "stage": "phase2",
+      "stage_label": "Phase 2b reported — phase 3 needed",
+      "summary": "Fixed-dose oral combination of two repurposed drugs, developed by NeuroSense for ALS.",
+      "points": [
+        "NeuroSense reports its phase 2b met a primary endpoint of reduced blood TDP-43.",
+        "The MND Association notes the analysis is unpublished and the trial was not designed to establish efficacy."
+      ],
+      "timeline": [
+        {
+          "date": "2026-06-30",
+          "label": "NeuroSense announces phase 2b TDP-43 result",
+          "done": true
+        }
+      ],
+      "next": "A phase 3 trial would be needed to test clinical benefit.",
+      "bodies": [
+        "NeuroSense"
+      ],
+      "links": [
+        {
+          "label": "MND Association — latest MND research news",
+          "url": "https://www.mndassociation.org/research/latest-news",
+          "quality": "secondary"
+        },
+        {
+          "label": "NeuroSense press release (30 Jun 2026)",
+          "url": "https://www.prnewswire.com/news-releases/neurosense-achieves-primary-endpoint-in-phase-2b-als-study-with-statistically-significant-reduction-of-tdp-43-the-defining-pathological-hallmark-of-als-302813175.html",
+          "quality": "company"
+        }
+      ],
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "trcn-1023",
+      "section": "mnd",
+      "kind": "trial",
+      "topics": [
+        "trials"
+      ],
+      "name": "TRCN-1023 (UNC13A antisense)",
+      "short": "TRCN-1023",
+      "stage": "phase1",
+      "stage_label": "First-in-human trial approved (UK, Netherlands)",
+      "summary": "Antisense oligonucleotide designed to restore UNC13A function, a target linked to TDP-43 loss of function in most ALS.",
+      "points": [
+        "Trace Neuroscience received approval for a small first-in-human trial in the UK and the Netherlands.",
+        "The MND Association noted the UK arm was still in set-up and safety is unproven."
+      ],
+      "timeline": [
+        {
+          "date": "2026-06-24",
+          "label": "Clinical development programme approved to begin",
+          "done": true
+        }
+      ],
+      "next": "UK site set-up and first dosing.",
+      "bodies": [
+        "Trace Neuroscience"
+      ],
+      "links": [
+        {
+          "label": "Trace Neuroscience press release (24 Jun 2026)",
+          "url": "https://www.traceneuro.com/press-releases/trace-neuroscience-initiates-global-clinical-development-program-for-trcn-1023-an-antisense-oligonucleotide-designed-to-restore-unc13a-function-for-the-treatment-of/",
+          "quality": "company"
+        },
+        {
+          "label": "MND Association — latest MND research news",
+          "url": "https://www.mndassociation.org/research/latest-news",
+          "quality": "secondary"
+        }
+      ],
+      "updated": "2026-10-26"
+    }
+  ],
+  "updates": [
+    {
+      "id": "2026-10-23-npi-networks-eoad-load",
+      "section": "research",
+      "topics": [
+        "dementia"
+      ],
+      "kind": "study",
+      "date": "2026-10-23",
+      "added": "2026-10-26",
+      "source": "Alzheimer's Res Ther",
+      "type": "Cross-sectional cohort",
+      "title": "Neuropsychiatric symptom networks largely overlap in early- and late-onset Alzheimer's disease",
+      "summary": "Network analysis of NPI-Q data from 1,360 people in the Amsterdam Dementia Cohort found similar overall structure in early- and late-onset AD, with aggression central in both but linked to different symptoms.",
+      "design": "655 early-onset (<65; mean age 58.4) and 705 late-onset (≥65; mean 70.8) AD. NPI-Q items dichotomised and modelled as Ising networks; groups compared with the Network Comparison Test.",
+      "points": [
+        "Apathy and depression were the most prevalent symptoms in both groups (EOAD 58% and 48%; LOAD 55% and 43%).",
+        "Global network strength did not differ significantly between groups.",
+        "EOAD: strongest edges aggression–disinhibition and aggression–irritability; most central nodes aggression and anxiety.",
+        "LOAD: strongest edge depression–anxiety; most central nodes aggression and disinhibition."
+      ],
+      "caveats": [
+        "Cross-sectional: edges describe conditional co-occurrence, not causal pathways.",
+        "Informant questionnaire items were dichotomised, so severity was not modelled.",
+        "Single memory-clinic cohort."
+      ],
+      "links": [
+        {
+          "label": "Weltings et al., Alzheimer's Research & Therapy (2026)",
+          "url": "https://link.springer.com/article/10.1186/s13195-026-02225-y",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-npa-disclosure-memory-clinic",
+      "section": "research",
+      "topics": [
+        "assessment",
+        "dementia"
+      ],
+      "kind": "study",
+      "date": "2026-10-22",
+      "added": "2026-10-26",
+      "source": "BMC Geriatrics",
+      "type": "Qualitative study",
+      "title": "How memory-clinic clinicians communicate neuropsychological assessment results",
+      "summary": "Focus groups with Dutch memory-clinic physicians and psychologists describe neuropsychological assessment as central to diagnostic disclosure, with communication tailored to patient and carer.",
+      "design": "Four focus groups (two physician, two psychologist) with experienced clinicians; deductive thematic content analysis by two independent researchers. Participant total not given in the abstract.",
+      "points": [
+        "Neuropsychological results were integrated with other diagnostic tests and central to disclosure conversations.",
+        "Clinicians adapted communication to patient and caregiver characteristics, using strategies to aid understanding and manage emotional reactions.",
+        "Participants favoured personalised, structured disclosures.",
+        "Acceptance was seen as extending beyond the clinic, but disclosure was felt to shape early understanding and adjustment."
+      ],
+      "caveats": [
+        "Clinician perspective only; patients and carers were not interviewed.",
+        "Dutch memory-clinic setting."
+      ],
+      "links": [
+        {
+          "label": "Stolte et al., BMC Geriatrics (2026)",
+          "url": "https://link.springer.com/article/10.1186/s12877-026-08529-w",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-hd-emotion-regulation-apathy",
+      "section": "research",
+      "topics": [
+        "neuro-conditions"
+      ],
+      "kind": "study",
+      "date": "2026-10-23",
+      "added": "2026-10-26",
+      "source": "J Neurol",
+      "type": "Cross-sectional study",
+      "title": "Emotion regulation difficulties track executive and initiation apathy in Huntington's disease",
+      "summary": "In 89 HD gene expansion carriers, DERS scores were most strongly associated with Dimensional Apathy Scale executive and behaviour/initiation subscales, independent of depression; emotional apathy was not significantly associated.",
+      "design": "Copenhagen. 89 carriers (48 premanifest, 41 manifest); no control group. DERS, LARS, Dimensional Apathy Scale, HAM-17 as covariate, MoCA/MMSE.",
+      "points": [
+        "DERS correlated with LARS global apathy (rs = 0.39), DAS executive (rs = 0.60) and behaviour/initiation apathy (rs = 0.55).",
+        "DAS emotional apathy was not significantly associated with DERS (rs = 0.22, p = 0.068).",
+        "After adjusting for depression, executive plus behaviour/initiation apathy explained an additional 24.2% of DERS variance (p < 0.001).",
+        "Exploratory: executive apathy was independently associated with DERS in premanifest (β = 0.437, p = 0.006) but not manifest carriers."
+      ],
+      "caveats": [
+        "Authors note the cross-sectional design, reliance on self-report and small exploratory subgroups."
+      ],
+      "links": [
+        {
+          "label": "Poulsen et al., Journal of Neurology (2026)",
+          "url": "https://link.springer.com/article/10.1007/s00415-026-14214-0",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-ccas-scale-responsiveness",
+      "section": "research",
+      "topics": [
+        "brain-injury",
+        "assessment"
+      ],
+      "kind": "study",
+      "date": "2026-10-23",
+      "added": "2026-10-26",
+      "source": "The Cerebellum",
+      "type": "Prospective cohort",
+      "title": "CCAS-Scale shows moderate responsiveness after acute cerebellar stroke",
+      "summary": "In 21 patients with first-ever cerebellar stroke, Cerebellar Cognitive Affective Syndrome Scale scores rose by a median of one point between day 7 and discharge (SRM 0.52).",
+      "design": "Single-centre prospective observational study. Assessed 7 days after onset and at discharge (median 21 days later) with the CCAS-Scale, MMSE, SARA and FIM.",
+      "points": [
+        "Median CCAS-Scale score 71 → 72 (p = 0.018); failed items 4 → 3 (p = 0.035).",
+        "Definite CCAS fell from 81.0% to 66.7%; every patient still met at least possible CCAS at discharge.",
+        "CCAS-Scale SRM 0.52 (95% CI 0.20–0.88); SARA and FIM showed large responsiveness, MMSE small.",
+        "CCAS-Scale change correlated with FIM change (rho = 0.44, p = 0.046), not with SARA or MMSE change."
+      ],
+      "caveats": [
+        "Authors caution that a one-point median change and a wide SRM confidence interval leave clinical significance uncertain.",
+        "Small single-centre sample; short follow-up; abstract only (full text paywalled)."
+      ],
+      "links": [
+        {
+          "label": "Shinya et al., The Cerebellum (2026)",
+          "url": "https://link.springer.com/article/10.1007/s12311-026-02103-1",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-ms-connectome-sdmt",
+      "section": "research",
+      "topics": [
+        "neuro-conditions"
+      ],
+      "kind": "study",
+      "date": "2026-10-23",
+      "added": "2026-10-26",
+      "source": "Nature Communications",
+      "type": "Cohort with AI modelling",
+      "title": "Lesion-derived connectivity estimates predict four-year SDMT in multiple sclerosis",
+      "summary": "Structural and functional connectivity estimated from clinical MRI lesion masks predicted follow-up Symbol Digit Modalities Test scores in 171 people with MS (median Spearman ρ 0.56–0.58).",
+      "design": "171 people with MS, cognition at baseline and 4 years. Structural connectivity estimated from lesion masks (Network Modification tool); functional connectivity then estimated with an encoder–decoder model (Krakencoder). Outcome: SDMT.",
+      "points": [
+        "Prediction was best for follow-up SDMT using regional estimated structural (ρ 0.58) or functional (ρ 0.56) connectivity.",
+        "Lower estimated cerebellar connectivity was associated with lower follow-up SDMT.",
+        "Higher estimated default-mode functional connectivity was associated with lower follow-up SDMT."
+      ],
+      "caveats": [
+        "Connectivity is estimated from lesion maps, not measured with diffusion or functional imaging.",
+        "Single cognitive outcome (SDMT); the authors' summary describes predictive performance as moderate."
+      ],
+      "links": [
+        {
+          "label": "Tozlu et al., Nature Communications (2026)",
+          "url": "https://link.springer.com/article/10.1038/s41467-026-75827-7",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-24-frontal-glioma-dti",
+      "section": "research",
+      "topics": [
+        "neuro-conditions"
+      ],
+      "kind": "study",
+      "date": "2026-10-24",
+      "added": "2026-10-26",
+      "source": "BMC Med Imaging",
+      "type": "Retrospective cohort",
+      "title": "Cognitive decline after frontal glioma treatment tracks white-matter change",
+      "summary": "In 40 patients with frontal lobe glioma, MoCA fell from 25.3 before surgery to 23.9 six months after radiotherapy; FA change in specific tracts tracked change in matching cognitive domains.",
+      "design": "Retrospective, single centre. MoCA and DTI (FA, MD in seven tracts) before surgery, one month after surgery, and six months after radiotherapy.",
+      "points": [
+        "MoCA 25.34 ± 2.20 → 25.15 ± 2.47 → 23.87 ± 2.91 (p < 0.001); declines in visuospatial/executive and delayed recall items.",
+        "SLF, cingulum and corpus callosum showed FA decreases and MD increases, largest at the final time point.",
+        "FDR-corrected correlations: corpus callosum FA with MoCA total (r = 0.57); SLF with visuospatial/executive (r = 0.41); cingulum with delayed recall (r = 0.39).",
+        "Tract changes were not associated with extent of resection or radiation dose."
+      ],
+      "caveats": [
+        "Retrospective, n = 40, MoCA as the only cognitive measure."
+      ],
+      "links": [
+        {
+          "label": "Chen et al., BMC Medical Imaging (2026)",
+          "url": "https://link.springer.com/article/10.1186/s12880-026-02971-3",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-loneliness-ptau217-hippocampus",
+      "section": "research",
+      "topics": [
+        "dementia"
+      ],
+      "kind": "study",
+      "date": "2026-10-23",
+      "added": "2026-10-26",
+      "source": "GeroScience",
+      "type": "Cross-sectional (trial baseline)",
+      "title": "Loneliness linked to smaller CA3 volume only in pTau217-positive older adults",
+      "summary": "Baseline IGNITE data (582 with plasma pTau217) showed loneliness associated with smaller total hippocampal volume, and with smaller CA3 only among pTau217-positive participants.",
+      "design": "Baseline of IGNITE, a 12-month aerobic exercise trial in cognitively unimpaired adults aged 65–80. Revised UCLA Loneliness Scale; 3T hippocampal subfield MRI (ASHS); plasma pTau217 (ALZpath, positive >0.46 pg/mL).",
+      "points": [
+        "Loneliness was associated with smaller total hippocampal volume (β = −0.077, p = 0.031; about −61 mm³ per SD).",
+        "No main effects on individual subfields.",
+        "Loneliness × pTau217 interaction for CA3 (β = −0.215, p = 0.012): inverse association in pTau217-positive (β = −0.230) but not negative participants.",
+        "Subfield interactions did not survive FDR correction at 0.05."
+      ],
+      "caveats": [
+        "Authors describe effects as modest and state the findings do not establish clinical significance.",
+        "Cross-sectional; sample 72% female and 76% White."
+      ],
+      "links": [
+        {
+          "label": "Martín-Fuentes et al., GeroScience (2026)",
+          "url": "https://link.springer.com/article/10.1007/s11357-026-02614-z",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-care-football-concussion",
+      "section": "research",
+      "topics": [
+        "brain-injury"
+      ],
+      "kind": "study",
+      "date": "2026-10-22",
+      "added": "2026-10-26",
+      "source": "Sports Med – Open",
+      "type": "Cross-sectional",
+      "title": "Three or more concussions associated with higher depressive symptoms in recently retired college footballers",
+      "summary": "Among 627 former US collegiate football players surveyed within five years of leaving the sport, those reporting 3+ lifetime concussions had higher PHQ-9 scores than those reporting none.",
+      "design": "CARE Consortium, 26 US universities; mean age 25. Outcomes: Neuro-QoL Cognitive, PHQ-9, SF-12 MCS, Satisfaction with Life Scale. Exposures: lifetime concussions (0, 1–2, 3+), playing position, years played.",
+      "points": [
+        "Adjusted: 3+ concussions associated with higher PHQ-9 versus none (B = 1.53, p = 0.014).",
+        "The SF-12 MCS difference did not survive multiple-comparison correction.",
+        "1–2 concussions did not differ from none; years of participation showed no associations.",
+        "Line players had the highest proportion with PHQ-9 ≥ 10 (17.8%)."
+      ],
+      "caveats": [
+        "All outcomes and concussion history self-reported; no performance-based cognitive testing.",
+        "Position and years played used as proxies for head-impact exposure.",
+        "Cross-sectional design."
+      ],
+      "links": [
+        {
+          "label": "Syrydiuk et al., Sports Medicine – Open (2026)",
+          "url": "https://link.springer.com/article/10.1186/s40798-026-01126-6",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-active-brains",
+      "section": "research",
+      "topics": [
+        "dementia"
+      ],
+      "kind": "study",
+      "date": "2026-09-28",
+      "added": "2026-10-26",
+      "source": "Lancet Primary Care",
+      "type": "Community trial",
+      "title": "Active Brains: online cognitive and lifestyle support for older adults with cognitive impairment",
+      "summary": "A UK primary-care trial in more than 11,500 people aged 60–85 compared brief advice with a brain-training website, with or without brief facilitator support, over 12 months.",
+      "design": "Three arms: control (cognitive testing plus brief lifestyle advice); website (brain exercises and advice); website plus two brief facilitator contacts, usually a nurse. 12-month follow-up.",
+      "points": [
+        "University of Southampton release: 28% of the control group no longer met criteria for cognitive impairment at 12 months.",
+        "The release reports 8% (website) and 18% (facilitator-supported) reductions in mild cognitive impairment compared with control.",
+        "Investigators attribute the effect to brain-stimulating activity; most participants already reported reasonably healthy activity and diet."
+      ],
+      "caveats": [
+        "Figures come from the university press release; check the paper for the primary outcome, whether reductions are absolute or relative, and confidence intervals."
+      ],
+      "links": [
+        {
+          "label": "The Lancet Primary Care — Active Brains trial",
+          "url": "https://www.thelancet.com/journals/lanprc/article/PIIS3050-5143(26)00088-9/fulltext",
+          "quality": "peer"
+        },
+        {
+          "label": "University of Southampton news release (28 Sep 2026)",
+          "url": "https://www.southampton.ac.uk/news/2026/09/proof-that-puzzles-can-reverse-cognitive-impairment.page",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-08-fcd-abidjan",
+      "section": "research",
+      "topics": [
+        "functional"
+      ],
+      "kind": "study",
+      "date": "2026-07-08",
+      "added": "2026-10-26",
+      "source": "Front Neurol",
+      "type": "Retrospective cohort",
+      "title": "Functional cognitive disorder in two memory clinics in Côte d'Ivoire",
+      "summary": "10.2% of 244 memory-clinic patients met criteria for functional cognitive disorder; most were referred for memory complaints and over half had a comorbid mental health disorder.",
+      "design": "Retrospective records review, two private memory clinics in Abidjan, 2018–2023. FCD required normal neurological examination and MRI plus internal inconsistency between reported symptoms and test performance.",
+      "points": [
+        "25 of 244 met criteria; mean age 45.8; 56% university-educated.",
+        "Mental health comorbidity in 52% (depression 36%).",
+        "Mean MoCA 23.2 ± 5.9; most points lost on memory, attention and visuospatial/executive items; naming and orientation best preserved.",
+        "Mean delay from symptom onset to consultation: 29.9 months."
+      ],
+      "caveats": [
+        "Authors cite the small sample, retrospective design and lack of established diagnostic criteria.",
+        "MoCA was the only cognitive measure reported."
+      ],
+      "links": [
+        {
+          "label": "Kouassi et al., Frontiers in Neurology (2026)",
+          "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1836371/full",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-ad-smart",
+      "section": "research",
+      "topics": [
+        "dementia"
+      ],
+      "kind": "trial",
+      "date": "2026-10-22",
+      "added": "2026-10-26",
+      "source": "UK DRI / ARUK",
+      "type": "Trial launch",
+      "title": "AD-SMART platform trial opens to test metformin and atomoxetine in Alzheimer's disease",
+      "summary": "A UK multi-arm, multi-stage platform modelled on MND-SMART will compare repurposed drugs with a shared placebo in about 1,200 people, starting with metformin and atomoxetine.",
+      "design": "Adaptive platform; arms dropped and replaced at interim analyses. Eligibility: age 55+ with Alzheimer's or mixed Alzheimer's/vascular dementia; standard treatments may continue. Assessments at baseline, 6, 12 and 18 months, including cognition, daily activities, MRI and blood biomarkers.",
+      "points": [
+        "Recruiting at Cambridgeshire & Peterborough and Surrey & Borders NHS trusts; open at Imperial, Edinburgh and Southampton; more than 30 sites planned.",
+        "Led by the UK Dementia Research Institute and Alzheimer's Research UK, with Imperial, UCL's trials unit, Oxford and Dementias Platform UK.",
+        "Evaluation of the first two drugs expected to finish around 2030."
+      ],
+      "who": "Referral routes: Join Dementia Research or the Dementia Research Infoline (0300 111 5 111).",
+      "tracker": "dementia-diagnosis",
+      "links": [
+        {
+          "label": "UKRI — new trial could halve the time to test Alzheimer's treatments",
+          "url": "https://www.ukri.org/news/new-trial-could-halve-the-time-to-test-alzheimers-treatments/",
+          "quality": "official"
+        },
+        {
+          "label": "Alzheimer's Research UK — AD-SMART explained",
+          "url": "https://www.alzheimersresearchuk.org/news/ad-smart-the-new-clinical-trial-speeding-up-the-search-for-alzheimers-treatments/",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-02-uksc-agni",
+      "section": "practice",
+      "topics": [
+        "capacity"
+      ],
+      "kind": "policy",
+      "date": "2026-06-02",
+      "added": "2026-10-26",
+      "source": "UK Supreme Court",
+      "type": "Judgment",
+      "title": "Supreme Court overrules Cheshire West and resets the deprivation of liberty test",
+      "summary": "In the AGNI Reference [2026] UKSC 16 the court set aside the Cheshire West acid test and held that a person lacking capacity to decide on residence and care can still consent to arrangements in a way that takes them outside Article 5.",
+      "points": [
+        "Unanimous seven-justice court; judgment by Lord Sales and Lady Simler.",
+        "Replaces the acid test with a multifactorial assessment of the person's concrete situation: supervision and control, ability to leave, type, duration, effects and purpose of restrictions, and the person's own experience.",
+        "Subjective consent has a lower threshold than MCA capacity: awareness of the environment, a basic understanding of the circumstances and acceptance, which can be tacit.",
+        "Objection and the person's wishes and feelings are relevant again; compliance alone does not establish consent."
+      ],
+      "who": "Anyone assessing capacity or contributing evidence to DoLS authorisations and Court of Protection applications, including neuropsychological capacity assessments and records of the person's wishes and feelings.",
+      "dates": "Judgment 2 June 2026; effective immediately across the UK.",
+      "tracker": "dol-lps",
+      "links": [
+        {
+          "label": "39 Essex Chambers — case summary of [2026] UKSC 16",
+          "url": "https://www.39essex.com/wp-content/uploads/2026/06/2026-UKSC-16-Summary.pdf",
+          "quality": "secondary"
+        },
+        {
+          "label": "GOV.UK — guidance on the 2026 judgment",
+          "url": "https://www.gov.uk/government/publications/changes-to-the-definition-of-deprivation-of-liberty/uk-supreme-court-2026-judgment-on-what-constitutes-a-deprivation-of-liberty",
+          "quality": "official"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-dhsc-dol-guidance",
+      "section": "practice",
+      "topics": [
+        "capacity"
+      ],
+      "kind": "policy",
+      "date": "2026-09-22",
+      "added": "2026-10-26",
+      "source": "DHSC",
+      "type": "Guidance",
+      "title": "DHSC guidance on applying the 2026 deprivation of liberty test",
+      "summary": "Government guidance, first published 15 June and last updated 22 September 2026, sets out how health and care bodies should apply the AGNI judgment, including reviewing existing DoLS authorisations.",
+      "points": [
+        "A person who lacks capacity may still validly consent if they can express wishes and feelings; where there is serious doubt, valid consent cannot be concluded.",
+        "Authorisations are expected to fall substantially over time, but a cautious approach is advised for now, with borderline cases referred for review.",
+        "Existing authorisations for people no longer deprived of liberty should be reviewed as soon as practicable; leaving them in place meanwhile is not unlawful.",
+        "The 2008 DoLS Code was republished on 2 June 2026; its chapter 2 does not fully reflect the new test.",
+        "NHS England updated its MCA/DoLS e-learning on 30 July 2026, with revised materials due by December 2026."
+      ],
+      "caveats": [
+        "DHSC says further interim guidance, including case studies, will follow."
+      ],
+      "who": "Local authorities, NHS trusts and practitioners involved in DoLS, community deprivation of liberty and capacity assessment.",
+      "dates": "First published 15 June 2026; last updated 22 September 2026.",
+      "tracker": "dol-lps",
+      "links": [
+        {
+          "label": "GOV.UK — UK Supreme Court 2026 judgment on what constitutes a deprivation of liberty",
+          "url": "https://www.gov.uk/government/publications/changes-to-the-definition-of-deprivation-of-liberty/uk-supreme-court-2026-judgment-on-what-constitutes-a-deprivation-of-liberty",
+          "quality": "official"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-11-assisted-dying-bill-defeated",
+      "section": "practice",
+      "also": [
+        "mnd"
+      ],
+      "topics": [
+        "end-of-life",
+        "services"
+      ],
+      "kind": "policy",
+      "date": "2026-09-11",
+      "added": "2026-10-26",
+      "source": "House of Commons",
+      "type": "Legislation",
+      "title": "Assisted dying bill for England and Wales defeated at second reading",
+      "summary": "MPs voted 286 to 270 against the Terminally Ill Adults (End of Life) Bill, reintroduced by Lauren Edwards in the 2026–27 session.",
+      "points": [
+        "The previous version passed the Commons in June 2025 but fell at the end of the 2024–26 session after Lords committee stage.",
+        "Free vote; reports state the Prime Minister did not vote.",
+        "Eligibility under the bill would have required the person to have capacity to make the decision.",
+        "Scotland's separate bill was voted down by MSPs in March 2026."
+      ],
+      "dates": "Second reading vote 11 September 2026.",
+      "tracker": "assisted-dying",
+      "links": [
+        {
+          "label": "UK Parliament — Terminally Ill Adults (End of Life) Bill 2026–27",
+          "url": "https://bills.parliament.uk/bills/4157",
+          "quality": "official"
+        },
+        {
+          "label": "Pharmaceutical Journal — assisted dying bill defeated",
+          "url": "https://pharmaceutical-journal.com/article/news/assisted-dying-bill-defeated-in-house-of-commons",
+          "quality": "secondary"
+        },
+        {
+          "label": "ITV News — MPs vote against legalising assisted dying",
+          "url": "https://www.itv.com/news/2026-09-11/mps-vote-against-legalising-assisted-dying-in-england-and-wales",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-ukri-dementia-challenge",
+      "section": "practice",
+      "also": [
+        "research"
+      ],
+      "topics": [
+        "dementia-care",
+        "assessment",
+        "dementia"
+      ],
+      "kind": "policy",
+      "date": "2026-10-02",
+      "added": "2026-10-26",
+      "source": "UKRI",
+      "type": "Funding programme",
+      "title": "£80m Dementia Challenge to test faster diagnosis tools in the NHS, including remote cognitive assessment",
+      "summary": "UKRI is funding nine projects for staged real-world NHS testing, aiming for 92% of people to be diagnosed within 18 weeks of referral (around 60% now).",
+      "points": [
+        "Cognitive assessment projects: a 15-minute remote digital cognitive assessment (Cognitron), a digital cognitive-monitoring platform (Exeter), and a home auditory-processing test (Queen Mary).",
+        "Other projects: faster MRI (about 20 to 7 minutes; UCL/UK DRI), a blood biomarker panel in routine memory services (Oxford/DPUK), home sensor monitoring (Minder, Imperial), sleep apnoea screening (Bristol), an AI progression tool (Cambridge), and redesign of Scottish diagnostic services (Edinburgh).",
+        "Only projects that show results receive further funding."
+      ],
+      "who": "NHS memory services and the clinicians who assess cognition in them.",
+      "tracker": "dementia-diagnosis",
+      "links": [
+        {
+          "label": "UKRI — £80m challenge for faster, better dementia diagnosis",
+          "url": "https://www.ukri.org/news/80m-challenge-for-faster-better-dementia-diagnosis-launched/",
+          "quality": "official"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08-barbara-alliance",
+      "section": "practice",
+      "also": [
+        "research"
+      ],
+      "topics": [
+        "dementia-care",
+        "dementia"
+      ],
+      "kind": "policy",
+      "date": "2026-10-08",
+      "added": "2026-10-26",
+      "source": "Prime Minister's Office",
+      "type": "Funding",
+      "title": "£48m BARBARA Alliance to speed recruitment into dementia trials",
+      "summary": "A public–private partnership will build a single UK platform linking health data, research cohorts and trial capabilities to find and recruit participants.",
+      "points": [
+        "£33m from government via the Dame Barbara Windsor Dementia Goals programme; the remainder from Bristol Myers Squibb, GSK and Gates Ventures.",
+        "The Health Data Research Service (up to £600m with Wellcome) will make dementia an early priority.",
+        "No timeline was given for the platform."
+      ],
+      "tracker": "dementia-diagnosis",
+      "links": [
+        {
+          "label": "GOV.UK — Prime Minister's dementia announcement (8 Oct 2026)",
+          "url": "https://www.gov.uk/government/news/i-have-real-hope-that-britain-can-come-together-to-defeat-dementia-pm",
+          "quality": "official"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-30-nice-amyloid-mabs-talks",
+      "section": "practice",
+      "topics": [
+        "dementia-care"
+      ],
+      "kind": "policy",
+      "date": "2026-07-30",
+      "added": "2026-10-26",
+      "source": "NICE",
+      "type": "Appraisal update",
+      "title": "Lecanemab and donanemab: NICE reconsideration moves to commercial talks",
+      "summary": "After appeals were upheld on two points, the NICE committee met on 8 July 2026. Eisai has accepted the committee's assumptions as the basis for commercial negotiation; Lilly had not as of 29 July.",
+      "points": [
+        "NICE rejected both drugs for MCI or mild dementia due to AD in June 2025.",
+        "Appeal panels upheld grounds on infusion-cost estimates and carer utility values, and two further points for donanemab.",
+        "NHS England is working with Eisai on whether a commercial deal could allow a recommendation.",
+        "No committee date or decision deadline has been set."
+      ],
+      "tracker": "amyloid-mabs",
+      "links": [
+        {
+          "label": "Pharmaceutical Journal — companies in talks with NICE (30 Jul 2026)",
+          "url": "https://pharmaceutical-journal.com/article/news/pharmaceutical-companies-in-talks-with-nice-about-access-to-alzheimers-drugs",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-19-aruk-dementia-drugs-fund",
+      "section": "practice",
+      "topics": [
+        "dementia-care"
+      ],
+      "kind": "news",
+      "date": "2026-10-19",
+      "added": "2026-10-26",
+      "source": "Alzheimer's Research UK",
+      "type": "Policy proposal",
+      "title": "Alzheimer's Research UK calls for a Dementia Drugs Fund",
+      "summary": "The charity proposes a dedicated fund, modelled on the Cancer Drugs Fund, to give access to new dementia treatments while the NHS gathers evidence on delivering them.",
+      "points": [
+        "Proposed as new money rather than funding taken from existing dementia services.",
+        "Would cover diagnosis, monitoring and evidence generation alongside NHS implementation pilots.",
+        "Made while NICE negotiations on lecanemab and donanemab continue."
+      ],
+      "tracker": "amyloid-mabs",
+      "links": [
+        {
+          "label": "Alzheimer's Research UK — call for a Dementia Drugs Fund",
+          "url": "https://www.alzheimersresearchuk.org/news/alzheimers-research-uk-calls-for-dedicated-dementia-drugs-fund/",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-abi-action-plan-delayed",
+      "section": "practice",
+      "topics": [
+        "abi-policy"
+      ],
+      "kind": "news",
+      "date": "2026-07-01",
+      "added": "2026-10-26",
+      "source": "Headway",
+      "type": "Policy delay",
+      "title": "Acquired Brain Injury Action Plan misses its end-of-June 2026 commitment",
+      "summary": "The government had committed to publish the ABI Action Plan by the end of June 2026; Headway reports the deadline passed with no publication or new date.",
+      "points": [
+        "A brain injury strategy was first promised in November 2021; the current government pledged an action plan for 2025.",
+        "In December 2025 the then minister, Ashley Dalton, committed to publication by the end of June 2026."
+      ],
+      "tracker": "abi-plan",
+      "links": [
+        {
+          "label": "Headway — another delay to government's ABI action plan",
+          "url": "https://www.headway.org.uk/news-and-campaigns/news/2026/another-delay-to-government-s-abi-action-plan/",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-prefals-mci",
+      "section": "mnd",
+      "topics": [
+        "cognition"
+      ],
+      "kind": "study",
+      "date": "2026-10-25",
+      "added": "2026-10-26",
+      "source": "J Neurol",
+      "type": "Longitudinal cohort",
+      "title": "Mild cognitive impairment in presymptomatic carriers of ALS-associated variants",
+      "summary": "In the Pre-fALS cohort, 14% of at-risk participants met MCI criteria at one or more visits, mainly in executive function and language, compared with 4% of non-carriers.",
+      "design": "Pre-symptomatic Familial ALS (Pre-fALS) study, North America: asymptomatic people at genetic risk of ALS/FTD, with non-carriers blinded to status as controls. Neuropsychological data from 216 participants over 807 visits (data cut May 2024). Authors: McHutchison, Abrahams, Benatar et al.",
+      "points": [
+        "31 participants (14%) met MCI criteria at one or more visits (4% of all visits).",
+        "By genotype: C9orf72 20% (15/74), SOD1 13% (12/94), other variants 15% (3/20), non-carriers 4% (1/28).",
+        "Impairment mainly affected executive function and language.",
+        "Classification often changed between visits.",
+        "The study's criteria flagged fewer impaired visits than the revised Strong criteria developed for symptomatic ALS."
+      ],
+      "caveats": [
+        "Figures here are from a secondary report of the paper; check the article for exact definitions and analyses.",
+        "Small non-carrier comparison group (n = 28)."
+      ],
+      "links": [
+        {
+          "label": "McHutchison et al., Journal of Neurology (2026), open access",
+          "url": "https://link.springer.com/article/10.1007/s00415-026-14206-0",
+          "quality": "peer"
+        },
+        {
+          "label": "Bioengineer.org — report on the study",
+          "url": "https://bioengineer.org/subtle-cognitive-deficits-emerge-before-als-symptoms-appear-study-finds/",
+          "quality": "lower"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-als-ad-copathology",
+      "section": "mnd",
+      "topics": [
+        "cognition",
+        "science"
+      ],
+      "kind": "study",
+      "date": "2026-07-01",
+      "date_label": "Jul 2026",
+      "added": "2026-10-26",
+      "source": "Ann Neurol",
+      "type": "Biomarker cohort with autopsy",
+      "title": "Alzheimer's co-pathology markers and cognition in ALS",
+      "summary": "In 192 people with ALS or ALS-FTD, CSF p-tau and total tau were associated with domain-specific ECAS performance; plasma extracellular-vesicle TDP-43 and NfL showed weak or no association.",
+      "design": "192 ALS/ALS-FTD and 100 healthy controls. CSF total tau, p-tau and β-amyloid; plasma EV TDP-43 and NfL; ECAS. Post-mortem data for a subset. Kasper, Hermann et al.",
+      "points": [
+        "AD-related biomarkers were elevated versus controls, especially in ALS with cognitive impairment (ALSci) and ALS-FTD.",
+        "β-amyloid differed between controls and ALSci, but not between controls and cognitively unimpaired ALS.",
+        "CSF p-tau and t-tau were strongly associated with domain-specific cognition.",
+        "Post-mortem: ABC scores and overall TDP-43 burden were not strongly associated with cognitive state; temporal and hippocampal TDP-43 burden was."
+      ],
+      "caveats": [
+        "In-vivo biomarkers distinguished impairment only in ALSci and ALS-FTD.",
+        "Autopsy data for a subset only; effect sizes not given in the abstract."
+      ],
+      "dates": "Annals of Neurology vol. 100, issue 1 (July 2026), pp. 123–138.",
+      "links": [
+        {
+          "label": "Kasper et al., Annals of Neurology (2026)",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/ana.78227",
+          "quality": "peer"
+        },
+        {
+          "label": "DZNE publication record with abstract",
+          "url": "https://pub.dzne.de/record/288223",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-18-neulogiq-als-ftd",
+      "section": "mnd",
+      "topics": [
+        "cognition"
+      ],
+      "kind": "study",
+      "date": "2026-08-18",
+      "added": "2026-10-26",
+      "source": "Sci Rep",
+      "type": "Feasibility study",
+      "title": "At-home EEG and gamified cognitive testing feasible over eight months in ALS and FTD",
+      "summary": "11 people with ALS, 7 with FTD and 10 controls completed fortnightly home sessions with a dry-sensor EEG headset and tablet tasks, benchmarked against the ECAS and a full neuropsychological battery.",
+      "design": "CNS-102, Beaumont Hospital Dublin / Trinity College Dublin (PI Orla Hardiman). Fortnightly home sessions (16-channel dry EEG, 10 tablet tasks); in-clinic assessment at baseline, 4 and 8 months.",
+      "points": [
+        "Usability good to excellent; ALS group mean System Usability Scale 89.",
+        "At baseline, home measures separated ALS, FTD and control groups with effect sizes comparable to the benchmark tests.",
+        "Exploratory: four home measures showed group × time interactions, including decline in ALS on facial-expression recognition and speech fluency; the in-clinic battery showed no significant group-level change over the same period."
+      ],
+      "caveats": [
+        "Proof-of-concept sample of 28; authors call for larger cohorts.",
+        "Platform developer and a pharmaceutical consortium (Biogen, Boehringer Ingelheim, BMS, Lilly, GSK, Takeda) involved; details here are from the developer's summary."
+      ],
+      "links": [
+        {
+          "label": "Scientific Reports (2026) — longitudinal cognitive assessment in ALS and FTD",
+          "url": "https://www.nature.com/articles/s41598-026-53099-x",
+          "quality": "peer"
+        },
+        {
+          "label": "Cumulus Neuroscience — publication summary",
+          "url": "https://www.cumulusneuro.com/news/publication-in-scientific-reports-longitudinal-cognitive-assessment-using-the-cumulus-neulogiq-platform-in-amyotrophic-lateral-sclerosis-and-frontotemporal-dementia",
+          "quality": "company"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-27-plasma-proteomics-phenoconversion",
+      "section": "mnd",
+      "topics": [
+        "science"
+      ],
+      "kind": "study",
+      "date": "2026-07-27",
+      "added": "2026-10-26",
+      "source": "Nature Medicine",
+      "type": "Longitudinal cohort",
+      "title": "Plasma protein panel estimates timing of ALS onset in genetic-risk carriers",
+      "summary": "In Pre-fALS, a 19-protein plasma panel including NfL predicted phenoconversion over horizons of six months to five years, estimating onset to within about two years.",
+      "design": "Olink proteomics (over 5,000 proteins) on longitudinal plasma from 137 Pre-fALS participants, 33 of whom developed ALS or FTD; tested in UK Biobank. Ran, Wuu, Benatar et al.",
+      "points": [
+        "92 proteins differed before symptom onset.",
+        "Machine-learning models selected a 19-protein panel including NfL.",
+        "Estimated onset fell within two years of actual symptom onset; similar results in UK Biobank."
+      ],
+      "caveats": [
+        "Genetically at-risk cohort with 33 phenoconverters; performance in sporadic ALS not established."
+      ],
+      "links": [
+        {
+          "label": "NIH — new blood-based biomarkers predict when ALS symptoms will emerge",
+          "url": "https://www.nih.gov/news-events/news-releases/new-blood-based-biomarkers-predict-when-als-symptoms-will-emerge",
+          "quality": "official"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-15-microplastics-als",
+      "section": "mnd",
+      "topics": [
+        "science"
+      ],
+      "kind": "study",
+      "date": "2026-08-15",
+      "date_label": "Aug 2026",
+      "added": "2026-10-26",
+      "source": "Brain Commun",
+      "type": "Case–control",
+      "title": "Higher nano- and microplastic levels in CSF and blood of newly diagnosed ALS",
+      "summary": "An Italian case–control study of 24 people with newly diagnosed ALS and 20 controls found higher particle concentrations in CSF and blood in ALS, with no association with progression.",
+      "design": "24 newly diagnosed ALS, 20 controls; nano- and microplastics quantified in blood and CSF.",
+      "points": [
+        "Median CSF levels exceeded 1,000 particles/mL in ALS, versus under 300 (men) and 700 (women) particles/mL in controls.",
+        "Blood differences were smaller; the association with ALS appeared only above a threshold level.",
+        "No association with disease progression."
+      ],
+      "caveats": [
+        "Association only: reverse causation and other environmental exposures not excluded.",
+        "Small sample; details here are from a news report of the paper."
+      ],
+      "links": [
+        {
+          "label": "Brain Communications (2026) — CNS nano- and microplastics and ALS risk",
+          "url": "https://academic.oup.com/braincomms/article/8/4/fcag296/8749471",
+          "quality": "peer"
+        },
+        {
+          "label": "ALS News Today — report on the study",
+          "url": "https://alsnewstoday.com/news/higher-microplastic-levels-seen-people-newly-diagnosed-als/",
+          "quality": "lower"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-12-experts-als-ropinirole",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-10-12",
+      "added": "2026-10-26",
+      "source": "MND Association",
+      "type": "Interim analysis",
+      "title": "EXPERTS-ALS drops ropinirole after no change in neurofilament light",
+      "summary": "An independent interim review found no NfL reduction on ropinirole, so it is being removed from the UK screening platform; salbutamol and doxycycline continue.",
+      "points": [
+        "Participants on ropinirole will stop after a short taper or at their next visit.",
+        "No new arms added yet; candidates are being identified.",
+        "No participant numbers or NfL values were published with the announcement."
+      ],
+      "tracker": "experts-als",
+      "links": [
+        {
+          "label": "MND Association — EXPERTS-ALS drops ropinirole",
+          "url": "https://www.mndassociation.org/media/latest-news/experts-als-study-drops-ropinirole-after-interim-analysis",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-10-experts-als-first-results",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-08-10",
+      "added": "2026-10-26",
+      "source": "MND Association",
+      "type": "Interim analysis",
+      "title": "EXPERTS-ALS first results: metformin and nifedipine dropped",
+      "summary": "Neither drug lowered serum NfL, so both left the platform; salbutamol, ropinirole and doxycycline continued at the time.",
+      "points": [
+        "The platform uses NfL reduction as an early signal; drugs with a large reduction go forward to phase 3.",
+        "NIHR is the principal funder, with the MND Association, LifeArc and My Name'5 Doddie Foundation."
+      ],
+      "tracker": "experts-als",
+      "links": [
+        {
+          "label": "MND Association — first results from EXPERTS-ALS",
+          "url": "https://www.mndassociation.org/media/latest-news/first-results-new-style-trial-platform-experts-als",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-ulefnersen-fusion",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-09-22",
+      "added": "2026-10-26",
+      "source": "Ionis / Otsuka",
+      "type": "Phase 3 topline",
+      "title": "Ulefnersen meets primary endpoint in phase 3 FUSION trial for FUS-ALS",
+      "summary": "Intrathecal ulefnersen improved a joint rank of ALSFRS-R change, time to rescue and ventilation-free survival versus placebo at 72 weeks (p = 0.0005; n = 73).",
+      "design": "Randomised, double-blind, placebo-controlled phase 1–3 study in FUS-ALS; 72-week double-blind period, then open-label extension.",
+      "points": [
+        "Primary endpoint met (p = 0.0005).",
+        "Company reports significant improvements in serum NfL and in time to death, permanent ventilation, rescue or withdrawal for progression.",
+        "Most adverse events mild or moderate; no detailed safety data released.",
+        "Otsuka plans expedited regulatory discussions; an early access programme is open to eligible patients."
+      ],
+      "caveats": [
+        "Topline company data; full results not yet presented or peer reviewed.",
+        "FUS variants are thought to cause under 1% of MND."
+      ],
+      "tracker": "ulefnersen",
+      "links": [
+        {
+          "label": "Ionis — positive topline results from phase 3 FUSION",
+          "url": "https://ir.ionis.com/news-releases/news-release-details/ionis-announces-positive-topline-results-phase-3-fusion-study",
+          "quality": "company"
+        },
+        {
+          "label": "MND Association — FUSION results summary",
+          "url": "https://www.mndassociation.org/media/latest-news/drug-trial-rare-genetic-form-mnd-results-look-encouraging",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-26-ap101-neals",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-10-26",
+      "added": "2026-10-26",
+      "source": "AL-S Pharma",
+      "type": "Phase 2 post hoc / phase 3 design",
+      "title": "AP-101 (misfolded-SOD1 antibody): phase 3 planned for 2027",
+      "summary": "AL-S Pharma will present post-hoc phase 2 body-weight analyses at NEALS and has outlined a phase 3 trial of about 300 people with ALS starting in 2027.",
+      "points": [
+        "Phase 2 (n = 73) met its primary safety and tolerability endpoint; no anti-drug antibodies reported.",
+        "Post-hoc weight analyses favoured AP-101 (e.g. 4.82 kg difference in SOD1-ALS at follow-up, p = 0.0092); reductions in serum NfL and CSF pNfH reported in the per-protocol population.",
+        "Phase 3 design: 2:1 randomisation, 2,500 mg IV every three weeks for 12 months; joint ALSFRS-R and death/permanent ventilation analysis; onset within 24 months and SVC ≥ 60%."
+      ],
+      "caveats": [
+        "Weight findings are post hoc and come from a company release."
+      ],
+      "dates": "NEALS presentation 28 October 2026; phase 3 start planned for 2027.",
+      "tracker": "ap-101",
+      "links": [
+        {
+          "label": "AL-S Pharma press release via BioSpace (26 Oct 2026)",
+          "url": "https://www.biospace.com/press-releases/al-s-pharma-reports-new-ap-101-phase-2-weight-data-and-outlines-phase-3-clinical-trial-in-als-at-2026-neals-annual-meeting",
+          "quality": "company"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-tofersen-nice-committee",
+      "section": "mnd",
+      "topics": [
+        "services",
+        "trials"
+      ],
+      "kind": "policy",
+      "date": "2026-10-22",
+      "added": "2026-10-26",
+      "source": "NICE",
+      "type": "Appraisal",
+      "title": "NICE committee holds first meeting on tofersen for SOD1-ALS",
+      "summary": "The Highly Specialised Technologies committee met on 22 October 2026; NICE lists 17 March 2027 as the expected publication date.",
+      "points": [
+        "Appraisal ID3767, after suspensions and a change of route since 2021.",
+        "The MND Association said a final decision was unlikely at the first meeting and might come early in 2027.",
+        "Tofersen is currently available free through Biogen's early access programme; the association says it is unaware of anyone with SOD1-MND currently missing out, after earlier local capacity refusals.",
+        "The MHRA approved tofersen in July 2025."
+      ],
+      "who": "People with ALS caused by SOD1 variants (about 2% of MND) and the services that administer intrathecal treatment.",
+      "tracker": "tofersen",
+      "links": [
+        {
+          "label": "NICE — Tofersen for treating ALS caused by SOD1 gene mutations (ID3767)",
+          "url": "https://www.nice.org.uk/guidance/indevelopment/gid-hst10062",
+          "quality": "official"
+        },
+        {
+          "label": "MND Association — update on our tofersen campaign",
+          "url": "https://www.mndassociation.org/media/latest-news/update-our-tofersen-campaign",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-30-primec",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-06-30",
+      "added": "2026-10-26",
+      "source": "NeuroSense",
+      "type": "Phase 2b",
+      "title": "PrimeC phase 2b reports lower blood TDP-43",
+      "summary": "NeuroSense reports its phase 2b met a primary endpoint of reduced blood TDP-43; the analysis is unpublished and the trial was not designed to establish efficacy.",
+      "points": [
+        "A phase 3 trial would be needed to test clinical benefit."
+      ],
+      "tracker": "primec",
+      "links": [
+        {
+          "label": "NeuroSense press release (30 Jun 2026)",
+          "url": "https://www.prnewswire.com/news-releases/neurosense-achieves-primary-endpoint-in-phase-2b-als-study-with-statistically-significant-reduction-of-tdp-43-the-defining-pathological-hallmark-of-als-302813175.html",
+          "quality": "company"
+        },
+        {
+          "label": "MND Association — latest MND research news",
+          "url": "https://www.mndassociation.org/research/latest-news",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-24-trcn-1023",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-06-24",
+      "added": "2026-10-26",
+      "source": "Trace Neuroscience",
+      "type": "Phase 1 approval",
+      "title": "First-in-human trial approved for UNC13A-targeting antisense TRCN-1023",
+      "summary": "Trace Neuroscience received approval for a small first-in-human trial in the UK and the Netherlands; the UK arm was still in set-up.",
+      "points": [
+        "TRCN-1023 is designed to restore UNC13A function, which is disrupted by TDP-43 loss of function.",
+        "Safety has not yet been tested in people."
+      ],
+      "tracker": "trcn-1023",
+      "links": [
+        {
+          "label": "Trace Neuroscience press release (24 Jun 2026)",
+          "url": "https://www.traceneuro.com/press-releases/trace-neuroscience-initiates-global-clinical-development-program-for-trcn-1023-an-antisense-oligonucleotide-designed-to-restore-unc13a-function-for-the-treatment-of/",
+          "quality": "company"
+        },
+        {
+          "label": "MND Association — latest MND research news",
+          "url": "https://www.mndassociation.org/research/latest-news",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-03-03-mnd-smart-amantadine",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-03-03",
+      "added": "2026-10-26",
+      "source": "MND-SMART",
+      "type": "Interim analysis",
+      "title": "MND-SMART stops amantadine after stage-2 interim analysis",
+      "summary": "Independent committees recommended stopping amantadine, the third drug tested on the platform, as it had not slowed progression; tacrolimus continues.",
+      "points": [
+        "No numerical results were released with the announcement.",
+        "A further drug is planned to join later in 2026.",
+        "Open to recruitment at 27 UK centres."
+      ],
+      "tracker": "mnd-smart",
+      "links": [
+        {
+          "label": "MND-SMART — amantadine stage 2 interim analysis",
+          "url": "https://mnd-smart.org/node/139",
+          "quality": "secondary"
+        },
+        {
+          "label": "MND Association — MND-SMART results announced",
+          "url": "https://www.mndassociation.org/media/latest-news/results-announced-uk-trial-mnd-smart-co-funded-mnd-association",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-mnd-collaborative-partnership",
+      "section": "mnd",
+      "topics": [
+        "science",
+        "services"
+      ],
+      "kind": "news",
+      "date": "2026-10-13",
+      "added": "2026-10-26",
+      "source": "MND Association",
+      "type": "Programme report",
+      "title": "MND Collaborative Partnership reports on three years of shared research infrastructure",
+      "summary": "The £4.25m partnership (MND Association, LifeArc, My Name'5 Doddie Foundation, MND Scotland, MRC, NIHR) laid groundwork for the UK MND Research Institute and secured £11m for EXPERTS-ALS.",
+      "points": [
+        "Standardised sample collection across five clinical sites, plus home blood and urine sampling.",
+        "Built patient-reported outcome measures, the Join MND Research app, standardised iPSC lines and a shared drug-screening platform.",
+        "Led by Ammar Al-Chalabi (King's College London) and Chris McDermott (Sheffield); work continues through the UK MND Research Institute."
+      ],
+      "links": [
+        {
+          "label": "MND Association — multimillion-pound partnership",
+          "url": "https://www.mndassociation.org/media/latest-news/multimillion-pound-partnership-breaking-down-barriers-mnd-research",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-inspire-2026",
+      "section": "mnd",
+      "topics": [
+        "services"
+      ],
+      "kind": "news",
+      "date": "2026-10-06",
+      "added": "2026-10-26",
+      "source": "MND Association",
+      "type": "Professional event",
+      "title": "Inspire 2026: MND Association professionals' day on holistic care",
+      "summary": "More than 200 health and social care professionals met in Birmingham, with sessions on cognitive and communication change, carers, withdrawal of treatment, nutrition and bereavement.",
+      "points": [
+        "Keynote by Dr Idris Baker on integrating physical, cognitive, emotional and social support.",
+        "No new guidance or services were announced."
+      ],
+      "links": [
+        {
+          "label": "MND Association — professionals meet to shape better care",
+          "url": "https://www.mndassociation.org/media/latest-news/professionals-across-mnd-community-meet-shape-better-care",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-30-ng42-editorial-update",
+      "section": "mnd",
+      "topics": [
+        "services"
+      ],
+      "kind": "policy",
+      "date": "2026-04-30",
+      "date_label": "Apr 2026",
+      "added": "2026-10-26",
+      "source": "NICE",
+      "type": "Guideline update",
+      "title": "NICE NG42 (MND) receives an editorial update; no review in progress",
+      "summary": "NICE added links to its overarching guidelines, including on medicines associated with dependence or withdrawal, to the 2016 MND guideline. The update page lists no wider review.",
+      "points": [
+        "Previous changes: links to technology appraisals (September 2024) and a pulse oximetry note (October 2022).",
+        "Cognitive and behavioural assessment recommendations are unchanged since 2016."
+      ],
+      "links": [
+        {
+          "label": "NICE NG42 — update information",
+          "url": "https://www.nice.org.uk/guidance/NG42/chapter/update-information",
+          "quality": "official"
+        }
+      ]
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-10-27",
+      "end": "2026-10-30",
+      "section": "mnd",
+      "title": "NEALS Annual Meeting (AP-101 presentation 28 Oct)",
+      "tracker": "ap-101"
+    },
+    {
+      "date": "2026-12-09",
+      "end": "2026-12-11",
+      "section": "mnd",
+      "title": "37th International Symposium on ALS/MND",
+      "where": "Amsterdam",
+      "url": "https://symposium.mndassociation.org/about-the-event/future-dates"
+    },
+    {
+      "date": "2026-12-31",
+      "approx": true,
+      "section": "mnd",
+      "title": "COMBAT-ALS (ibudilast) topline results expected by end of 2026",
+      "tracker": "combat-als"
+    },
+    {
+      "date": "2026-12-31",
+      "approx": true,
+      "section": "mnd",
+      "title": "Next drug due to join MND-SMART (later in 2026)",
+      "tracker": "mnd-smart"
+    },
+    {
+      "date": "2026-12-31",
+      "approx": true,
+      "section": "practice",
+      "title": "Revised NHS England MCA/DoLS training materials due (by December)",
+      "tracker": "dol-lps"
+    },
+    {
+      "date": "2027-02-10",
+      "end": "2027-02-13",
+      "section": "research",
+      "title": "INS 55th Annual Meeting",
+      "where": "Boston",
+      "url": "https://the-ins.org/meetings/future-ins-meetings/"
+    },
+    {
+      "date": "2027-03-01",
+      "end": "2027-05-31",
+      "section": "practice",
+      "title": "HCPC registration renewal window for practitioner psychologists",
+      "url": "https://hcpc-uk.org/registration/registration-renewals/when-to-renew"
+    },
+    {
+      "date": "2027-03-17",
+      "section": "mnd",
+      "title": "NICE expected publication date: tofersen (ID3767)",
+      "tracker": "tofersen",
+      "url": "https://www.nice.org.uk/guidance/indevelopment/gid-hst10062"
+    },
+    {
+      "date": "2027-05-12",
+      "end": "2027-05-14",
+      "section": "mnd",
+      "title": "ENCALS 2027",
+      "where": "Lübeck",
+      "url": "https://portal.conventus.de/events/encals-2027?lng=en"
+    },
+    {
+      "date": "2027-06-21",
+      "section": "mnd",
+      "title": "Global MND/ALS Awareness Day"
+    },
+    {
+      "date": "2027-06-22",
+      "end": "2027-06-24",
+      "section": "research",
+      "title": "INS 2027 Mid-Year Meeting",
+      "where": "Chiba",
+      "url": "https://the-ins.org/meetings/future-ins-meetings/"
+    },
+    {
+      "date": "2027-06-30",
+      "approx": true,
+      "section": "mnd",
+      "title": "AP-101 phase 3 planned to start (2027)",
+      "tracker": "ap-101"
+    },
+    {
+      "date": "2027-07-18",
+      "end": "2027-07-21",
+      "section": "research",
+      "title": "Alzheimer's Association International Conference (AAIC) 2027",
+      "where": "Chicago",
+      "url": "https://istaart.alz.org/events/item/23/657"
+    },
+    {
+      "date": "2027-12-06",
+      "end": "2027-12-08",
+      "section": "mnd",
+      "title": "38th International Symposium on ALS/MND",
+      "where": "Dublin",
+      "url": "https://symposium.mndassociation.org/about-the-event/future-dates"
+    }
+  ]
+}
