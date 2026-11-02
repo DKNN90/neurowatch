@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T19:00:00Z",
-  "next_update": "2026-11-02",
+  "generated_at": "2026-11-02T07:30:00Z",
+  "next_update": "2026-11-09",
   "about": "A personal tracker of clinical neuropsychology research and UK practice developments, with a dedicated section on motor neurone disease. Each item is a neutral summary of a published study or public document: for research, the design, findings and stated limitations; for policy, what it says, who it affects and when. Every item links to its source.",
   "coverage_note": "Seed edition covering publications up to 26 October 2026, weighted to the preceding three months. Updated every Monday.",
   "ahead_blurb": "Conferences, decision dates, deadlines and expected trial readouts across all three sections.",
@@ -98,14 +98,14 @@
       "name": "Springer Nature — neuropsychology articles (incl. J Neurol)",
       "section": "research",
       "url": "https://link.springer.com/subjects/neuropsychology",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "acn",
       "name": "Archives of Clinical Neuropsychology",
       "section": "research",
       "url": "https://academic.oup.com/acn/issue",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "jins",
@@ -203,7 +203,7 @@
       "name": "Headway — news and campaigns",
       "section": "practice",
       "url": "https://www.headway.org.uk/news-and-campaigns/news/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "mclp",
@@ -224,7 +224,7 @@
       "name": "MND Association — latest news",
       "section": "mnd",
       "url": "https://www.mndassociation.org/media/latest-news",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "mnd-smart",
@@ -259,7 +259,7 @@
       "name": "International Symposium on ALS/MND",
       "section": "mnd",
       "url": "https://symposium.mndassociation.org/about-the-event/future-dates",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "mnd-scotland",
@@ -273,7 +273,7 @@
       "name": "ALS News Today (pointer only)",
       "section": "mnd",
       "url": "https://alsnewstoday.com/",
-      "status": "checked"
+      "status": "unreachable"
     }
   ],
   "trackers": [
@@ -337,13 +337,18 @@
           "done": true
         },
         {
+          "date": "2026-10-29",
+          "label": "ZZ (No. 2) [2026] EWCOP 57: acquiescence is not consent; public-protection DoL can be in best interests",
+          "done": true
+        },
+        {
           "date": "2026-12",
           "label": "Revised NHS England MCA/DoLS training materials due",
           "done": false,
           "approx": true
         }
       ],
-      "next": "DHSC says it will publish further interim guidance with case studies. This feed found no published LPS consultation or revised MCA Code of Practice as of 26 October 2026; the consultation announced in October 2025 had been expected in the first half of 2026.",
+      "next": "DHSC says it will publish further interim guidance with case studies. This feed found no published LPS consultation or revised MCA Code of Practice as of 2 November 2026; the consultation announced in October 2025 had been expected in the first half of 2026.",
       "bodies": [
         "UK Supreme Court",
         "DHSC",
@@ -369,9 +374,14 @@
           "label": "Browne Jacobson — LPS 2026 consultation announced (Oct 2025)",
           "url": "https://www.brownejacobson.com/insights/liberty-protection-safeguards-2026-consultation-announced",
           "quality": "secondary"
+        },
+        {
+          "label": "Mental Capacity Law and Policy — deprivation of liberty case comments",
+          "url": "https://www.mentalcapacitylawandpolicy.org.uk/category/comments/case-comment/deprivation-of-liberty/",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-02"
     },
     {
       "id": "amyloid-mabs",
@@ -949,7 +959,7 @@
           "approx": true
         }
       ],
-      "next": "Topline results expected by the end of 2026.",
+      "next": "Topline results expected by the end of 2026; MediciNova said on 12 October that it remained on track. No readout found as of 2 November 2026.",
       "bodies": [
         "MediciNova"
       ],
@@ -963,9 +973,14 @@
           "label": "MediciNova — COMBAT-ALS update",
           "url": "https://investors.medicinova.com/news-releases/news-release-details/medicinova-announces-update-and-basic-characteristic-randomized",
           "quality": "company"
+        },
+        {
+          "label": "MediciNova CEO shareholder update (12 Oct 2026)",
+          "url": "https://www.globenewswire.com/news-release/2026/10/12/3378753/0/en/medicinova-ceo-provides-shareholder-update.html",
+          "quality": "company"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-02"
     },
     {
       "id": "ap-101",
@@ -996,7 +1011,7 @@
           "approx": true
         }
       ],
-      "next": "Presentation at NEALS (28 October 2026); phase 3 start in 2027.",
+      "next": "Phase 3 start in 2027. No further data from the NEALS presentation were found as of 2 November 2026.",
       "bodies": [
         "AL-S Pharma"
       ],
@@ -1007,7 +1022,7 @@
           "quality": "company"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-02"
     },
     {
       "id": "primec",
@@ -1019,20 +1034,32 @@
       "name": "PrimeC (NeuroSense)",
       "short": "PrimeC",
       "stage": "phase2",
-      "stage_label": "Phase 2b reported — phase 3 needed",
-      "summary": "Oral treatment developed by NeuroSense for ALS.",
+      "stage_label": "Phase 3 (PARAGON) cleared by FDA — start date not given",
+      "summary": "Extended-release oral fixed-dose combination of ciprofloxacin and celecoxib, developed by NeuroSense for ALS.",
       "points": [
         "NeuroSense reports its phase 2b met a primary endpoint of reduced blood TDP-43.",
-        "The MND Association notes the analysis is unpublished and the trial was not designed to establish efficacy."
+        "The MND Association notes the analysis is unpublished and the trial was not designed to establish efficacy.",
+        "NeuroSense says the FDA has cleared it to start the pivotal phase 3 PARAGON trial, to run mainly in the US; design details have not been published."
       ],
       "timeline": [
         {
           "date": "2026-06-30",
           "label": "NeuroSense announces phase 2b TDP-43 result",
           "done": true
+        },
+        {
+          "date": "2026-10-30",
+          "label": "PARADIGM findings and PARAGON plans presented at NEALS",
+          "done": true
+        },
+        {
+          "date": "2027",
+          "label": "PARAGON phase 3 start (no date given)",
+          "done": false,
+          "approx": true
         }
       ],
-      "next": "A phase 3 trial would be needed to test clinical benefit.",
+      "next": "PARAGON design and start date; the company says timing may be delayed and depends partly on grant funding.",
       "bodies": [
         "NeuroSense"
       ],
@@ -1046,9 +1073,14 @@
           "label": "NeuroSense press release (30 Jun 2026)",
           "url": "https://www.prnewswire.com/news-releases/neurosense-achieves-primary-endpoint-in-phase-2b-als-study-with-statistically-significant-reduction-of-tdp-43-the-defining-pathological-hallmark-of-als-302813175.html",
           "quality": "company"
+        },
+        {
+          "label": "NeuroSense press release via PR Newswire (29 Oct 2026)",
+          "url": "https://www.prnewswire.com/news-releases/neurosense-to-present-integrated-clinical-and-biomarker-evidence-shaping-primecs-phase-3-development-at-neals-2026-302923937.html",
+          "quality": "company"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-02"
     },
     {
       "id": "trcn-1023",
@@ -1090,9 +1122,273 @@
         }
       ],
       "updated": "2026-10-26"
+    },
+    {
+      "id": "pridopidine",
+      "section": "mnd",
+      "kind": "trial",
+      "topics": [
+        "trials"
+      ],
+      "name": "Pridopidine — PREVAiLS (Prilenia / Ferrer)",
+      "short": "Pridopidine",
+      "stage": "phase3",
+      "stage_label": "Phase 3 recruiting (~60%), UK sites — topline Q1 2028",
+      "summary": "Oral investigational drug being tested by Prilenia and Ferrer in early ALS (within 18 months of onset) in the global PREVAiLS phase 3.",
+      "points": [
+        "About 500 participants, 3:2 randomisation, 48 weeks placebo-controlled then 48-week open-label extension.",
+        "Primary endpoint: mortality-adjusted ALSFRS-R change at week 48.",
+        "Up to 60 centres in 13 countries including the UK; NCT07322003.",
+        "Earlier efficacy signals come from HEALEY platform subgroup and post hoc external-control analyses."
+      ],
+      "timeline": [
+        {
+          "date": "2026-10-28",
+          "label": "About 60% enrolled; post hoc HEALEY analysis presented at NEALS",
+          "done": true
+        },
+        {
+          "date": "2027-03",
+          "date_label": "Q1 2027",
+          "label": "Recruitment completion expected",
+          "done": false,
+          "approx": true
+        },
+        {
+          "date": "2028-03",
+          "date_label": "Q1 2028",
+          "label": "Topline results expected",
+          "done": false,
+          "approx": true
+        }
+      ],
+      "next": "Recruitment completion expected Q1 2027; topline results Q1 2028.",
+      "bodies": [
+        "Prilenia",
+        "Ferrer"
+      ],
+      "links": [
+        {
+          "label": "Prilenia/Ferrer press release (28 Oct 2026)",
+          "url": "https://s202.q4cdn.com/210612175/files/doc_news/Prilenia-and-Ferrer-to-Share-New-Pridopidine-Data-and-PREVAiLS-Study-Updates-at-the-NEALS-Consortium-2026-Annual-Meeting-2026.pdf",
+          "quality": "company"
+        },
+        {
+          "label": "ClinicalTrials.gov — NCT07322003",
+          "url": "https://clinicaltrials.gov/study/NCT07322003",
+          "quality": "official"
+        }
+      ],
+      "updated": "2026-11-02"
     }
   ],
   "updates": [
+    {
+      "id": "2026-10-26-re-program-functional-seizures-rct",
+      "section": "research",
+      "topics": [
+        "functional"
+      ],
+      "kind": "study",
+      "date": "2026-10-26",
+      "added": "2026-11-02",
+      "source": "JAMA Neurology",
+      "type": "Randomised clinical trial",
+      "title": "Self-guided internet programme reduced functional seizure frequency versus standard care",
+      "summary": "In a three-arm Australian RCT, the five-session Re-PROGRAM internet intervention, self-guided, was associated with lower monthly seizure frequency than standard care up to 12 months; the therapist-guided version did not differ significantly from standard care.",
+      "design": "Single-centre (Melbourne) parallel RCT, 1:1:1, February 2022 to April 2024 (ACTRN12622000262707). Adults with video-EEG-confirmed functional seizures, ≥4 per month, no active epilepsy; 107 randomised, 96 analysed (self-guided 29, therapist-guided 34, standard care 33). Primary outcome: diary-recorded monthly seizure frequency at 6 weeks, 6 and 12 months.",
+      "points": [
+        "Self-guided vs standard care overall: RR 0.35 (95% CI 0.18–0.69; Holm–Bonferroni p = .006); RR 0.37 at 6 weeks, 0.31 at 6 months and 0.35 at 12 months.",
+        "Therapist-guided vs standard care: reduction not statistically significant; self-guided vs therapist-guided RR 0.67 (95% CI 0.33–1.36).",
+        "Anxiety improved more with the self-guided arm than standard care at all three time points; the therapist-guided arm at 6 months only.",
+        "No adverse events were reported in any arm. Programme content combined CBT, ACT and DBT elements with seizure management and lifestyle factors."
+      ],
+      "caveats": [
+        "Single centre; 96 of 107 randomised participants analysed; mean age 36, 83% female.",
+        "Seizure frequency was self-reported by diary, with retrospective estimates for incomplete records.",
+        "Authors' stated limitations were not available on the page read for this summary."
+      ],
+      "links": [
+        {
+          "label": "Higson et al., JAMA Neurology (online 26 Oct 2026)",
+          "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2855733",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-26-asyn-saa-als-preprint",
+      "section": "mnd",
+      "topics": [
+        "science"
+      ],
+      "kind": "study",
+      "date": "2026-10-26",
+      "added": "2026-11-02",
+      "source": "medRxiv (preprint)",
+      "type": "Cohort study (preprint)",
+      "title": "CSF α-synuclein seeding found in 5% of people with ALS and linked to shorter tracheostomy-free survival",
+      "summary": "In 443 people with ALS from Japan and Italy, strong CSF α-synuclein seed amplification assay positivity was uncommon (5.4%) but was associated with shorter tracheostomy-free survival in sporadic ALS after adjustment for NfL.",
+      "design": "Baseline CSF αSyn RT-QuIC in ALS cohorts from Nagoya (n = 248) and Bologna (n = 195), compared with Swedish BioFINDER groups (cognitively unimpaired n = 999, Aβ-positive MCI n = 224, AD dementia n = 319); five autopsy cases. Lund, Nagoya, Bologna and Aichi authors.",
+      "points": [
+        "Strong positivity 24/443 (5.4%); 37/443 (8.4%) including weak positives.",
+        "Odds of positivity were not significantly higher than in Aβ-negative cognitively unimpaired controls (OR 1.33, 95% CI 0.82–2.14) and were lower than in AD dementia (OR 0.44, 0.27–0.70).",
+        "Sporadic ALS: strong positivity associated with shorter tracheostomy-free survival (adjusted HR 2.08, 95% CI 1.25–3.45); weak positivity showed no clear association.",
+        "Strong positivity modified the association between NfL and ALSFRS-R decline (β −0.70 points/month per SD NfL, 95% CI −1.26 to −0.14).",
+        "The abstract reports no analysis of αSyn status against cognitive performance in ALS."
+      ],
+      "caveats": [
+        "Preprint; not peer reviewed.",
+        "Small strong-positive group (n = 24) and neuropathological confirmation in only five cases.",
+        "ALS cohorts from two countries compared with a separate Swedish cohort."
+      ],
+      "links": [
+        {
+          "label": "Obara et al., medRxiv preprint (posted 26 Oct 2026)",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.23.26366349v1",
+          "quality": "preprint"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-pridopidine-prevails-neals",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-10-28",
+      "added": "2026-11-02",
+      "source": "Prilenia / Ferrer",
+      "type": "Trial update (company)",
+      "title": "Pridopidine: PREVAiLS phase 3 about 60% enrolled, with UK sites; topline expected Q1 2028",
+      "summary": "Prilenia and Ferrer reported that the pivotal PREVAiLS trial of pridopidine in early ALS is about 60% enrolled, and presented a post hoc external-control analysis of HEALEY platform data at NEALS.",
+      "points": [
+        "PREVAiLS: about 500 participants with definite or probable ALS (El Escorial) within 18 months of onset; 48 weeks placebo-controlled (3:2), then 48-week open-label extension.",
+        "Primary endpoint: mortality-adjusted ALSFRS-R change at week 48; secondary measures include survival, speech, bulbar and respiratory function, communication PROs and plasma biomarkers.",
+        "Up to 60 centres in 13 countries including the UK (NCT07322003). Recruitment completion expected Q1 2027; topline Q1 2028.",
+        "NEALS poster: 36 HEALEY participants within 18 months of onset compared with PRO-ACT external controls by propensity weighting; the companies reported favourable ALSFRS-R, respiratory and survival results to week 48."
+      ],
+      "caveats": [
+        "Company press release; the NEALS analysis is a conference poster.",
+        "Post hoc, non-randomised external-control comparison in 36 people; the companies note confounding and selection bias may apply.",
+        "Pridopidine is not approved for any indication; it holds EU orphan designation for ALS."
+      ],
+      "tracker": "pridopidine",
+      "links": [
+        {
+          "label": "Prilenia/Ferrer press release (28 Oct 2026)",
+          "url": "https://s202.q4cdn.com/210612175/files/doc_news/Prilenia-and-Ferrer-to-Share-New-Pridopidine-Data-and-PREVAiLS-Study-Updates-at-the-NEALS-Consortium-2026-Annual-Meeting-2026.pdf",
+          "quality": "company"
+        },
+        {
+          "label": "ClinicalTrials.gov — NCT07322003 (PREVAiLS)",
+          "url": "https://clinicaltrials.gov/study/NCT07322003",
+          "quality": "official"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-primec-paragon-neals",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-10-29",
+      "added": "2026-11-02",
+      "source": "NeuroSense",
+      "type": "Trial update (company)",
+      "title": "PrimeC: NeuroSense presents phase 2b data informing the FDA-cleared PARAGON phase 3",
+      "summary": "NeuroSense announced a NEALS presentation (30 October) linking PARADIGM phase 2b clinical and biomarker findings to the design of PARAGON, its planned phase 3 of PrimeC in ALS, which the FDA has cleared to start.",
+      "points": [
+        "PrimeC is an extended-release oral fixed-dose combination of ciprofloxacin and celecoxib.",
+        "The company says it is working with the FDA on the PARAGON design, to run mainly in the US; no sample size, endpoints or start date were given.",
+        "NeuroSense cites PARADIGM long-term follow-up published in JAMA Neurology, reporting slower functional decline in participants on PrimeC from study start than in those initially on placebo.",
+        "Presenters: Merit Cudkowicz (Massachusetts General Hospital) and Shiran Zimri (NeuroSense)."
+      ],
+      "caveats": [
+        "Company press release; the release notes the phase 3 timing could be delayed and grant funding may not be awarded."
+      ],
+      "tracker": "primec",
+      "links": [
+        {
+          "label": "NeuroSense press release via PR Newswire (29 Oct 2026)",
+          "url": "https://www.prnewswire.com/news-releases/neurosense-to-present-integrated-clinical-and-biomarker-evidence-shaping-primecs-phase-3-development-at-neals-2026-302923937.html",
+          "quality": "company"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-ewcop-zz-no2",
+      "section": "practice",
+      "topics": [
+        "capacity"
+      ],
+      "kind": "policy",
+      "date": "2026-10-29",
+      "added": "2026-11-02",
+      "source": "Court of Protection",
+      "type": "Judgment",
+      "title": "Court of Protection: compliance and resignation are not consent under AGNI; public-protection restrictions can be in best interests",
+      "summary": "In ZZ (Deprivation of Liberty in the Public Interest) (No. 2) [2026] EWCOP 57 (T2), HHJ Burrows held that a man whose highly restrictive arrangements were largely driven by risk to others was deprived of his liberty, and that the deprivation was lawful and in his best interests.",
+      "points": [
+        "Applying AGNI, the court looked at the whole concrete situation; restrictions on movement, communications, relationships and technology fell outside relative normality.",
+        "ZZ cooperated and approved some aspects of his placement, but the court found this was acceptance rather than agreement, so there was no valid consent; it placed him nearer the acquiescence end of the framework in TW v Worcestershire [2026] EWCOP 54 (T2).",
+        "State attribution was present; the court noted it follows automatically where the Court of Protection approves restrictions.",
+        "A deprivation of liberty whose main purpose is protecting others can still be in the person's best interests; here it was necessary, proportionate and the least restrictive option available."
+      ],
+      "who": "Clinicians giving capacity or risk evidence for people subject to restrictive community arrangements, including forensic and brain-injury placements; DoLS assessors and Court of Protection practitioners.",
+      "dates": "Judgment 29 October 2026 (per the National Archives listing cited by 39 Essex Chambers); commentary 30 October 2026.",
+      "tracker": "dol-lps",
+      "links": [
+        {
+          "label": "Mental Capacity Law and Policy (39 Essex Chambers) — commentary, 30 Oct 2026",
+          "url": "https://www.mentalcapacitylawandpolicy.org.uk/deprivation-of-liberty-and-public-protection-post-agni/",
+          "quality": "secondary"
+        },
+        {
+          "label": "National Archives — A Local Authority v ZZ [2026] EWCOP 57 (T2)",
+          "url": "https://caselaw.nationalarchives.gov.uk/ewcop/t2/2026/57",
+          "quality": "official"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-ewhc-re-b-child-agni",
+      "section": "practice",
+      "topics": [
+        "capacity"
+      ],
+      "kind": "policy",
+      "date": "2026-10-30",
+      "added": "2026-11-02",
+      "source": "High Court (Family Division)",
+      "type": "Judgment",
+      "title": "National DoL List lead judge sets out how AGNI applies to children",
+      "summary": "In Re B (A Child: Complex Needs: Deprivation of Liberty) [2026] EWHC 2789 (Fam), Henke J held that consent under AGNI is an autonomous concept distinct from capacity or Gillick competence, and that a local authority cannot consent to the confinement of a child in its care.",
+      "points": [
+        "A child lacking capacity may still understand and accept arrangements enough to prevent a deprivation of liberty; the weight given depends on age, maturity and understanding.",
+        "The Re A-F comparator approach is displaced: the question is the individual child's concrete situation, with relative normality relevant but not a comparator.",
+        "For 16- and 17-year-olds, Re D [2019] UKSC 42 still applies; whether parents can consent for under-16s after AGNI was left open.",
+        "Where a deprivation of liberty is obvious, the local authority must seek leave to invoke the inherent jurisdiction; finely balanced cases should come to court. B, aged 9, was found not to be deprived of liberty."
+      ],
+      "who": "Practitioners assessing or reporting on young people with neurodevelopmental or acquired conditions, including transition cases approaching 16–18.",
+      "dates": "Commentary published 30 October 2026; the judgment date was not stated in the commentary.",
+      "tracker": "dol-lps",
+      "links": [
+        {
+          "label": "Mental Capacity Law and Policy (39 Essex Chambers) — commentary, 30 Oct 2026",
+          "url": "https://www.mentalcapacitylawandpolicy.org.uk/agni-and-children-the-national-dol-lead-judge-pronounces/",
+          "quality": "secondary"
+        },
+        {
+          "label": "National Archives — Re B [2026] EWHC 2789 (Fam)",
+          "url": "https://caselaw.nationalarchives.gov.uk/ewhc/fam/2026/2789",
+          "quality": "official"
+        }
+      ]
+    },
     {
       "id": "2026-10-23-npi-networks-eoad-load",
       "section": "research",
@@ -2281,6 +2577,13 @@
       "url": "https://www.nice.org.uk/guidance/indevelopment/gid-hst10062"
     },
     {
+      "date": "2027-03-31",
+      "section": "mnd",
+      "title": "PREVAiLS (pridopidine) recruitment completion expected (Q1 2027)",
+      "tracker": "pridopidine",
+      "url": "https://s202.q4cdn.com/210612175/files/doc_news/Prilenia-and-Ferrer-to-Share-New-Pridopidine-Data-and-PREVAiLS-Study-Updates-at-the-NEALS-Consortium-2026-Annual-Meeting-2026.pdf"
+    },
+    {
       "date": "2027-05-12",
       "end": "2027-05-14",
       "section": "mnd",
@@ -2325,6 +2628,13 @@
       "title": "38th International Symposium on ALS/MND",
       "where": "Dublin",
       "url": "https://symposium.mndassociation.org/about-the-event/future-dates"
+    },
+    {
+      "date": "2028-03-31",
+      "section": "mnd",
+      "title": "PREVAiLS (pridopidine) topline results expected (Q1 2028)",
+      "tracker": "pridopidine",
+      "url": "https://s202.q4cdn.com/210612175/files/doc_news/Prilenia-and-Ferrer-to-Share-New-Pridopidine-Data-and-PREVAiLS-Study-Updates-at-the-NEALS-Consortium-2026-Annual-Meeting-2026.pdf"
     }
   ]
 }
