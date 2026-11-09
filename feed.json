@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T07:30:00Z",
-  "next_update": "2026-11-09",
+  "generated_at": "2026-11-09T06:54:57Z",
+  "next_update": "2026-11-16",
   "about": "A personal tracker of clinical neuropsychology research and UK practice developments, with a dedicated section on motor neurone disease. Each item is a neutral summary of a published study or public document: for research, the design, findings and stated limitations; for policy, what it says, who it affects and when. Every item links to its source.",
   "coverage_note": "Seed edition covering publications up to 26 October 2026, weighted to the preceding three months. Updated every Monday.",
   "ahead_blurb": "Conferences, decision dates, deadlines and expected trial readouts across all three sections.",
@@ -98,7 +98,7 @@
       "name": "Springer Nature — neuropsychology articles (incl. J Neurol)",
       "section": "research",
       "url": "https://link.springer.com/subjects/neuropsychology",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "acn",
@@ -112,7 +112,7 @@
       "name": "Journal of the International Neuropsychological Society",
       "section": "research",
       "url": "https://www.cambridge.org/core/journals/journal-of-the-international-neuropsychological-society",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "jnp",
@@ -175,7 +175,7 @@
       "name": "UK Parliament — bills",
       "section": "practice",
       "url": "https://bills.parliament.uk/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "bps",
@@ -203,7 +203,7 @@
       "name": "Headway — news and campaigns",
       "section": "practice",
       "url": "https://www.headway.org.uk/news-and-campaigns/news/",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "mclp",
@@ -217,7 +217,7 @@
       "name": "MND Association — research news",
       "section": "mnd",
       "url": "https://www.mndassociation.org/research/latest-news",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "mnda-news",
@@ -231,7 +231,7 @@
       "name": "MND-SMART",
       "section": "mnd",
       "url": "https://mnd-smart.org/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "experts-als",
@@ -259,21 +259,21 @@
       "name": "International Symposium on ALS/MND",
       "section": "mnd",
       "url": "https://symposium.mndassociation.org/about-the-event/future-dates",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "mnd-scotland",
       "name": "MND Scotland — news",
       "section": "mnd",
       "url": "https://mndscotland.org.uk/news/",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "alsnt",
       "name": "ALS News Today (pointer only)",
       "section": "mnd",
       "url": "https://alsnewstoday.com/",
-      "status": "unreachable"
+      "status": "checked"
     }
   ],
   "trackers": [
@@ -348,7 +348,7 @@
           "approx": true
         }
       ],
-      "next": "DHSC says it will publish further interim guidance with case studies. This feed found no published LPS consultation or revised MCA Code of Practice as of 2 November 2026; the consultation announced in October 2025 had been expected in the first half of 2026.",
+      "next": "DHSC says it will publish further interim guidance with case studies. This feed found no published LPS consultation, revised MCA Code of Practice or further DHSC guidance as of 9 November 2026; the DHSC guidance page was last updated on 22 September 2026.",
       "bodies": [
         "UK Supreme Court",
         "DHSC",
@@ -379,9 +379,14 @@
           "label": "Mental Capacity Law and Policy — deprivation of liberty case comments",
           "url": "https://www.mentalcapacitylawandpolicy.org.uk/category/comments/case-comment/deprivation-of-liberty/",
           "quality": "secondary"
+        },
+        {
+          "label": "Mental Capacity Law and Policy — Post-AGNI case tracker",
+          "url": "https://www.mentalcapacitylawandpolicy.org.uk/post-agni-case-tracker/",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-11-02"
+      "updated": "2026-11-09"
     },
     {
       "id": "amyloid-mabs",
@@ -489,7 +494,9 @@
         "Target set by the Dementia Challenge: 92% of people diagnosed within 18 weeks of referral, against around 60% now.",
         "Nine projects enter staged NHS testing; continued funding depends on results.",
         "The ADAPT study is evaluating plasma p-tau217 in NHS memory services, focusing on its effect on diagnostic speed, clinical decisions and outcomes rather than accuracy.",
-        "The BARBARA platform will link UK health data, cohorts and registries to identify trial participants."
+        "The BARBARA platform will link UK health data, cohorts and registries to identify trial participants.",
+        "UKRI-backed BRAINIAC hub (Exeter, £20m) to set up ten NHS brain health clinics using biomarkers and digital cognitive tests; first clinics expected in 2029.",
+        "ABN and RCPsych specialists published a UK consensus statement on plasma p-tau217 testing in Alzheimer's diagnosis (Practical Neurology, 30 Oct 2026)."
       ],
       "timeline": [
         {
@@ -510,6 +517,16 @@
         {
           "date": "2026-10-22",
           "label": "AD-SMART platform trial launches",
+          "done": true
+        },
+        {
+          "date": "2026-10-30",
+          "label": "UK consensus statement on plasma p-tau217 testing",
+          "done": true
+        },
+        {
+          "date": "2026-11-05",
+          "label": "UKRI funds BRAINIAC brain health clinics hub",
           "done": true
         }
       ],
@@ -534,9 +551,19 @@
           "label": "Healthcare Management UK — ADAPT trial launch",
           "url": "https://www.healthcare-management.uk/uk-trial-launches-transform-alzheimer-diagnosis",
           "quality": "secondary"
+        },
+        {
+          "label": "University of Exeter — £20m brain health clinics hub",
+          "url": "https://news.exeter.ac.uk/faculty-of-health-and-life-sciences/exeter-led-20-million-hub-will-create-ten-brain-health-clinics-to-help-nhs-reduce-dementia-risk/",
+          "quality": "secondary"
+        },
+        {
+          "label": "ACNR — UK guidance for Alzheimer's blood biomarker testing",
+          "url": "https://acnr.co.uk/new-guidance-published-for-alzheimers-blood-biomarker-testing/",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-09"
     },
     {
       "id": "abi-plan",
@@ -821,7 +848,8 @@
       "points": [
         "Dropped so far: metformin and nifedipine (August 2026), ropinirole (October 2026).",
         "Still recruiting: salbutamol and doxycycline. Further candidates are being identified.",
-        "Funded by NIHR, the MND Association, LifeArc and My Name'5 Doddie Foundation."
+        "Funded by NIHR, the MND Association, LifeArc and My Name'5 Doddie Foundation.",
+        "The study-progress page (updated 29 October 2026) lists doxycycline and salbutamol, shows recruitment temporarily paused, and reports 232 consented and 183 randomised."
       ],
       "timeline": [
         {
@@ -856,9 +884,14 @@
           "label": "MND Association — EXPERTS-ALS study page",
           "url": "https://www.mndassociation.org/research/clinical-trials/treatment-trials/experts-als",
           "quality": "secondary"
+        },
+        {
+          "label": "EXPERTS-ALS — study progress",
+          "url": "https://www.experts-als.uk/study-progress",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-09"
     },
     {
       "id": "mnd-smart",
@@ -959,7 +992,7 @@
           "approx": true
         }
       ],
-      "next": "Topline results expected by the end of 2026; MediciNova said on 12 October that it remained on track. No readout found as of 2 November 2026.",
+      "next": "Topline results expected by the end of 2026; MediciNova said on 12 October that it remained on track. No readout found as of 9 November 2026.",
       "bodies": [
         "MediciNova"
       ],
@@ -980,7 +1013,7 @@
           "quality": "company"
         }
       ],
-      "updated": "2026-11-02"
+      "updated": "2026-11-09"
     },
     {
       "id": "ap-101",
@@ -1183,6 +1216,476 @@
     }
   ],
   "updates": [
+    {
+      "id": "2026-11-02-delirium-mcsa-mci-dementia",
+      "section": "research",
+      "topics": [
+        "dementia",
+        "assessment"
+      ],
+      "kind": "study",
+      "date": "2026-11-02",
+      "added": "2026-11-09",
+      "source": "JAMA Neurology",
+      "type": "Cohort study",
+      "title": "In-hospital delirium linked to later MCI, dementia and faster cognitive decline in the Mayo Clinic Study of Aging",
+      "summary": "In a population-based ageing cohort with serial neuropsychological assessment, delirium recorded around a hospital admission was associated with higher hazards of incident MCI and dementia.",
+      "design": "Mayo Clinic Study of Aging (Olmsted County, Minnesota), admissions October 2004 to December 2023; 3,501 participants without dementia with at least one admission. Delirium identified by a validated natural-language-processing algorithm on clinical notes, modelled as time-dependent; MCI and dementia by expert consensus with testing about every 15 months.",
+      "points": [
+        "Median age 74.1 years; 47.9% female; 26.0% APOE ε4 carriers; median follow-up 7.2 years.",
+        "Delirium documented within 30 days of admission in 75 participants (2.1%).",
+        "Incident MCI: adjusted HR 3.67 (95% CI 2.19–6.15). Incident dementia: adjusted HR 5.39 (95% CI 2.94–9.85); models adjusted for age, sex, education and APOE ε4.",
+        "Delirium was also associated with faster decline on longitudinal cognitive testing; the abstract gives no numerical estimate."
+      ],
+      "caveats": [
+        "Observational; association only.",
+        "Delirium ascertained from clinical notes, so unrecorded episodes would be missed; 75 exposed participants.",
+        "Single US county cohort.",
+        "Authors' stated limitations were not available on the page read for this summary."
+      ],
+      "links": [
+        {
+          "label": "Palmer et al., JAMA Neurology (online 2 Nov 2026)",
+          "url": "https://jamanetwork.com/journals/jamaneurology/article-abstract/2856176",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-03-spousal-tbi-aric-mortality",
+      "section": "research",
+      "topics": [
+        "brain-injury",
+        "dementia"
+      ],
+      "kind": "study",
+      "date": "2026-11-03",
+      "added": "2026-11-09",
+      "source": "JAMA Network Open",
+      "type": "Cohort study",
+      "title": "Spouse's traumatic brain injury associated with higher mortality in the uninjured partner (ARIC)",
+      "summary": "In married couples followed for about two decades, a spouse's incident TBI was associated with higher all-cause mortality in the uninjured partner; associations with dementia and major cardiovascular events were not statistically significant.",
+      "design": "Atherosclerosis Risk in Communities (ARIC) Study, 4 US centres, baseline 1987–1989 to December 2022; 3,281 married pairs (6,562 people). Spousal TBI from self-report, hospital surveillance and Medicare data, modelled as time-varying; Cox shared-frailty models.",
+      "points": [
+        "Mean baseline age 54.5 years; median follow-up 19.5 years.",
+        "Mortality: HR 1.24 (95% CI 1.07–1.43; p = .004).",
+        "Dementia: HR 1.17 (95% CI 0.88–1.56; p = .28). Major adverse cardiovascular events: HR 1.15 (95% CI 0.84–1.57; p = .40).",
+        "Against a living spouse without TBI: living spouse with TBI HR 1.22 (1.05–1.41); spouse died with TBI HR 1.27 (1.07–1.52). Sex-stratified results were similar."
+      ],
+      "caveats": [
+        "Observational; caregiving load and mediators were not reported on the page read.",
+        "The full text gives the MACE sample inconsistently (2,740 vs 2,470 pairs).",
+        "Authors' stated limitations were not available on the page read for this summary."
+      ],
+      "links": [
+        {
+          "label": "D'Alonzo et al., JAMA Network Open (online 3 Nov 2026)",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856229",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-glp1ra-minor-stroke-dementia",
+      "section": "research",
+      "topics": [
+        "brain-injury",
+        "dementia"
+      ],
+      "kind": "study",
+      "date": "2026-11-07",
+      "added": "2026-11-09",
+      "source": "Journal of Neurology",
+      "type": "Retrospective cohort study (propensity-matched EHR)",
+      "title": "GLP-1 receptor agonist use around minor ischaemic stroke associated with lower post-stroke dementia risk",
+      "summary": "In US electronic health records of people with minor ischaemic stroke, most with diabetes, a GLP-1 receptor agonist prescription was associated with about half the five-year hazard of post-stroke dementia compared with matched non-users.",
+      "design": "TriNetX US network, 2016–2025. Adults with minor ischaemic stroke (NIHSS ≤5) without prior cognitive impairment, dementia, mood/anxiety disorder or intracranial haemorrhage; exposure = GLP-1RA prescription before or within 3 months after stroke. 1:1 matching on 75 covariates (1,425 per group); Cox models over 5 years.",
+      "points": [
+        "Mean age 60.7 years; 92.7% had diabetes; mean HbA1c 8.7%.",
+        "Post-stroke dementia 3.4% vs 7.0% (HR 0.52; 95% CI 0.37–0.74).",
+        "Other neurocognitive complaints 17.2% vs 25.6% (HR 0.69; 95% CI 0.59–0.81).",
+        "Mortality HR 0.57 (0.42–0.77); major ischaemic stroke HR 0.59 (0.35–1.01); intracranial haemorrhage did not differ significantly."
+      ],
+      "caveats": [
+        "The authors call for prospective trials to establish causality.",
+        "Retrospective, coding-based outcomes; no formal cognitive testing.",
+        "Predominantly diabetic sample."
+      ],
+      "links": [
+        {
+          "label": "Kakadiya, Chen et al., Journal of Neurology (online 7 Nov 2026)",
+          "url": "https://link.springer.com/article/10.1007/s00415-026-14251-9",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-06-oab-anticholinergics-dementia",
+      "section": "research",
+      "topics": [
+        "dementia"
+      ],
+      "kind": "study",
+      "date": "2026-11-06",
+      "added": "2026-11-09",
+      "source": "JAMA Network Open",
+      "type": "Retrospective cohort study",
+      "title": "Anticholinergic bladder drugs not associated with higher dementia incidence than β3 agonists in 830,000 adults",
+      "summary": "In a US EHR cohort of adults newly treated for overactive bladder, starting a high-risk anticholinergic was not associated with higher dementia incidence than starting a β3 agonist; the authors suggest earlier reported risks may reflect residual confounding.",
+      "design": "Epic Cosmos EHR, 2012–2025; 830,393 adults aged 40–90 without dementia starting high-risk anticholinergics (oxybutynin, tolterodine, solifenacin), low-risk anticholinergics (darifenacin, trospium, fesoterodine) or β3 agonists (mirabegron, vibegron). Dementia from diagnosis codes or dementia medication; IPTW-weighted Cox models.",
+      "points": [
+        "70.5% female; median age 67; 65,134 incident dementia cases.",
+        "High-risk anticholinergic vs β3 agonist: HR 0.90 (95% CI 0.87–0.93); high- vs low-risk anticholinergic HR 0.93 (0.90–0.96); low-risk vs β3 agonist HR 0.97 (0.93–1.01).",
+        "Weighted 10-year dementia risk 20.0% with β3 agonists vs 18.1% with high-risk anticholinergics.",
+        "Longer anticholinergic use was not associated with higher risk; E-values of 1.29 and 1.20."
+      ],
+      "caveats": [
+        "No untreated comparison group.",
+        "The authors note possible residual confounding, including channelling of β3 agonists to people perceived to be at cognitive risk.",
+        "Dementia ascertained from codes and prescriptions; short-term cognitive effects not examined."
+      ],
+      "links": [
+        {
+          "label": "Sheyn et al., JAMA Network Open (online 6 Nov 2026)",
+          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856326",
+          "quality": "peer"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-arc-connectome-score-superagers",
+      "section": "research",
+      "topics": [
+        "dementia",
+        "assessment"
+      ],
+      "kind": "study",
+      "date": "2026-11-04",
+      "added": "2026-11-09",
+      "source": "Science Advances (via Stanford Medicine release)",
+      "type": "Secondary analysis of longitudinal neuroimaging cohorts",
+      "title": "Resting-state connectivity score contrasting 'super agers' with Alzheimer's disease predicts decline in unimpaired adults",
+      "summary": "Stanford-led researchers derived a functional connectivity score (ARC) from super agers versus people with Alzheimer's disease and applied it to cognitively unimpaired adults; higher, more AD-like scores predicted faster decline, amyloid accumulation and diagnosis within 12 years.",
+      "design": "Resting-state fMRI from OASIS, the Harvard Aging Brain Study and ADNI. Derivation in 180 super agers and 110 people with AD (aged 75+); applied to more than 1,300 unimpaired adults aged 55–70 followed on memory, attention and executive tests; compared with amyloid/tau, genetics and brain age.",
+      "points": [
+        "The score separated super agers from AD with about 85% accuracy.",
+        "More AD-like scores predicted faster cognitive decline, amyloid development and diagnosis within 12 years; adding the score to biomarkers improved prediction.",
+        "Most datasets covered about 5–6 years of follow-up; maximum 12 years."
+      ],
+      "caveats": [
+        "Figures are from the institutional press release; the article was not read.",
+        "The 85% figure contrasts two extreme groups; no validation accuracy, effect sizes or CIs were given for the unimpaired cohort.",
+        "The release describes the score as a monitoring aid, not a diagnostic test."
+      ],
+      "links": [
+        {
+          "label": "Stanford Medicine release via EurekAlert! (4 Nov 2026), on Zhao, Zhang et al., Science Advances, doi:10.1126/sciadv.aed9351",
+          "url": "https://www.eurekalert.org/news-releases/1150534",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01-opensafely-covid-cognitive-impairment",
+      "section": "research",
+      "topics": [
+        "dementia"
+      ],
+      "kind": "study",
+      "date": "2026-11-01",
+      "added": "2026-11-09",
+      "source": "medRxiv (preprint)",
+      "type": "Cohort study (preprint)",
+      "title": "OpenSAFELY: recorded cognitive impairment and dementia rise after COVID-19 in 18.3 million English adults",
+      "summary": "Linked English primary care records showed raised rates of recorded cognitive impairment and dementia in the four weeks after COVID-19, with smaller excess risks persisting up to four years; excess risks were lower in vaccinated people.",
+      "design": "OpenSAFELY-TPP linked records for 18.3 million adults in English general practice, follow-up up to 5.5 years; pre-vaccination, vaccinated and unvaccinated cohorts; adjusted HRs for incidence after vs before or without COVID-19.",
+      "points": [
+        "Weeks 0–4, cognitive impairment aHR 4.02 (95% CI 3.74–4.32) pre-vaccination, 2.24 (2.05–2.45) vaccinated, 4.38 (3.45–5.55) unvaccinated.",
+        "Weeks 0–4, dementia aHR 5.05 (4.63–5.52), 2.05 (1.77–2.37) and 8.69 (6.13–12.32) respectively.",
+        "Up to 4 years, cognitive impairment aHR 1.49 (1.35–1.64), 1.27 (1.04–1.54) and 1.55 (1.11–2.16); dementia aHR 1.39, 1.32 and 1.48.",
+        "Excess risks were largest after hospitalisation with COVID-19."
+      ],
+      "caveats": [
+        "Preprint; not peer reviewed.",
+        "Outcomes are recorded diagnoses, not standardised cognitive testing.",
+        "Authors' stated limitations were not available on the page read for this summary."
+      ],
+      "links": [
+        {
+          "label": "Mason et al., medRxiv (posted 1 Nov 2026)",
+          "url": "https://www.medrxiv.org/content/10.64898/2026.10.30.26366919v1",
+          "quality": "preprint"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-re-x-inherent-jurisdiction-coercion",
+      "section": "practice",
+      "topics": [
+        "capacity"
+      ],
+      "kind": "policy",
+      "date": "2026-10-29",
+      "added": "2026-11-09",
+      "source": "High Court (Family Division); Mental Capacity Law and Policy",
+      "type": "Court judgment (commentary)",
+      "title": "High Court uses inherent jurisdiction to protect a capacitous adult whose autonomy police said coercion had overborne",
+      "summary": "In Re X (Inherent Jurisdiction: Vulnerable Adult) [2026] EWHC 2857 (Fam), Hayden J upheld an urgent order sought by Devon and Cornwall Police to stop a woman with capacity under the MCA 2005 travelling abroad, where police feared for her life. Mental Capacity Law and Policy published commentary on 7 November.",
+      "points": [
+        "X had capacity under the MCA; police believed coercion, threats and undue influence, including use of her child as leverage, had overborne her ability to act autonomously.",
+        "Hayden J held the inherent jurisdiction could be used to give X space to recover her autonomy, not to override it.",
+        "He said the Re SA definition of 'vulnerable adult' had not aged well but accepted the jurisdiction exists.",
+        "The commentary emphasises that capacity and autonomy are distinct, and raises whether the inherent jurisdiction is the right tool for the promised review of adult safeguarding powers."
+      ],
+      "who": "Clinicians assessing capacity where coercion or undue influence is suspected; safeguarding teams, police and local authorities.",
+      "dates": [
+        "Judgment listed 29 October 2026",
+        "Commentary published 7 November 2026"
+      ],
+      "links": [
+        {
+          "label": "Mental Capacity Law and Policy — Protecting autonomy: a case study in effective policing (7 Nov 2026)",
+          "url": "https://www.mentalcapacitylawandpolicy.org.uk/protecting-autonomy-a-case-study-in-effective-policing-and-legal-literacy/",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-post-agni-case-tracker",
+      "section": "practice",
+      "topics": [
+        "capacity"
+      ],
+      "kind": "news",
+      "date": "2026-11-04",
+      "added": "2026-11-09",
+      "source": "Mental Capacity Law and Policy / Neil Allen",
+      "type": "Resource launch",
+      "title": "Post-AGNI deprivation of liberty case tracker launched",
+      "summary": "Mental Capacity Law and Policy launched a tracker of deprivation of liberty decisions since AGNI, compiled with Neil Allen; the November 2026 Mental Capacity Reports include a section on themes from post-AGNI case law.",
+      "points": [
+        "For each case the tracker records the level of court, type of setting, whether a deprivation of liberty was found, and judicial comments on the objective and subjective elements of Article 5.",
+        "The post describes first-instance post-AGNI decisions as fact-specific worked examples rather than binding precedent.",
+        "Monthly AGNI annexes to the Mental Capacity Reports summarise the previous month's decisions."
+      ],
+      "tracker": "dol-lps",
+      "links": [
+        {
+          "label": "Mental Capacity Law and Policy — Post-AGNI case tracker",
+          "url": "https://www.mentalcapacitylawandpolicy.org.uk/post-agni-case-tracker/",
+          "quality": "secondary"
+        },
+        {
+          "label": "Mental Capacity Law and Policy — November 2026 Mental Capacity Reports",
+          "url": "https://www.mentalcapacitylawandpolicy.org.uk/november-mental-capacity-reports-and-post-agni-case-tracker/",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-ukri-health-tech-hubs-brainiac-brain-safe",
+      "section": "practice",
+      "also": [
+        "research"
+      ],
+      "topics": [
+        "dementia-care",
+        "abi-policy",
+        "assessment"
+      ],
+      "kind": "news",
+      "date": "2026-11-05",
+      "added": "2026-11-09",
+      "source": "UKRI (EPSRC); University of Exeter; Imperial College London",
+      "type": "Funding announcement",
+      "title": "UKRI funds health technology hubs including a dementia brain health clinics network (BRAINIAC) and a TBI hub (BRAIN-SAFE)",
+      "summary": "UKRI announced more than £52 million for five research hubs. Two concern the brain: BRAINIAC (Exeter), to set up ten NHS brain health clinics using AI and digital cognitive assessment, and BRAIN-SAFE (Imperial), on predicting and preventing traumatic brain injury.",
+      "points": [
+        "BRAINIAC (led by Prof David Llewellyn): £20m in total, half from EPSRC and half from partners; six years; ten NHS sites across all four UK nations; first clinics expected in 2029, initially for NHS referrals.",
+        "BRAINIAC will combine blood biomarkers, imaging, genetics, health records and digital cognitive tests, including at-home testing. Exeter states aims of 30–50% faster assessment and over 1,700 patients recruited.",
+        "BRAIN-SAFE (Profs David Sharp and Mazdak Ghajari): models to estimate individual injury risk after head impacts in sport, transport and defence; partners include the RAF, rugby unions and GB Boxing."
+      ],
+      "tracker": "dementia-diagnosis",
+      "links": [
+        {
+          "label": "UKRI release via EurekAlert! (5 Nov 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1150491",
+          "quality": "secondary"
+        },
+        {
+          "label": "University of Exeter — £20m brain health clinics hub",
+          "url": "https://news.exeter.ac.uk/faculty-of-health-and-life-sciences/exeter-led-20-million-hub-will-create-ten-brain-health-clinics-to-help-nhs-reduce-dementia-risk/",
+          "quality": "secondary"
+        },
+        {
+          "label": "Imperial College London — national hub to predict and prevent TBI",
+          "url": "https://www.imperial.ac.uk/news/articles/medicine/brain-sciences/2026/imperial-to-lead-new-national-hub-to-predict-and-prevent-traumatic-brain-injury-/",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-ptau217-uk-consensus",
+      "section": "practice",
+      "topics": [
+        "dementia-care"
+      ],
+      "kind": "policy",
+      "date": "2026-10-30",
+      "added": "2026-11-09",
+      "source": "Practical Neurology (ABN / RCPsych consensus), reported by ACNR",
+      "type": "Consensus statement",
+      "title": "UK consensus statement on using plasma p-tau217 in Alzheimer's diagnosis",
+      "summary": "Specialists from the Association of British Neurologists and the Royal College of Psychiatrists published a consensus statement in Practical Neurology on using plasma p-tau217 blood tests in Alzheimer's diagnosis, supported by Alzheimer's Research UK and Alzheimer's Society.",
+      "points": [
+        "Covers how and whom to test, interpreting results and diagnostic uncertainty, equity of access, and communicating results to patients and families.",
+        "The authors say blood tests are to be used alongside comprehensive clinical assessment, not as standalone diagnostic tools.",
+        "Recommends DART-CU, a free online tool to help clinicians interpret biomarker results."
+      ],
+      "who": "Memory services, neurologists, old-age psychiatrists and neuropsychologists involved in dementia diagnosis.",
+      "dates": [
+        "Published online 30 October 2026",
+        "ACNR report 6 November 2026"
+      ],
+      "tracker": "dementia-diagnosis",
+      "links": [
+        {
+          "label": "ACNR — UK guidance published for Alzheimer's blood biomarker testing (6 Nov 2026)",
+          "url": "https://acnr.co.uk/new-guidance-published-for-alzheimers-blood-biomarker-testing/",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-dazals-dazucorilant-neals",
+      "section": "mnd",
+      "also": [
+        "research"
+      ],
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-11-07",
+      "added": "2026-11-09",
+      "source": "NeurologyLive (NEALS 2026)",
+      "type": "Conference report",
+      "title": "DAZALS: two-year exploratory survival data for dazucorilant presented at NEALS",
+      "summary": "Two-year follow-up of the phase 2 DAZALS trial of the glucocorticoid receptor modulator dazucorilant (Corcept) was presented at NEALS; the 24-week primary functional endpoint was not met and the survival analyses were exploratory.",
+      "points": [
+        "Randomised 1:1:1 double-blind for 24 weeks (300 mg/day n = 83, 150 mg/day n = 83, placebo n = 82), then open-label 300 mg/day for 132 weeks.",
+        "No significant difference in ALSFRS-R change over 24 weeks (primary endpoint).",
+        "Deaths by 16 April 2026 by original arm: 26.5% (300 mg), 32.5% (150 mg), 39.0% (placebo).",
+        "300 mg vs placebo participants who did not cross over (n = 18): two-year HR 0.13 (95% CI 0.05–0.35). Corcept plans a phase 3 from 2027."
+      ],
+      "caveats": [
+        "Conference data reported in specialist press; not peer reviewed.",
+        "Exploratory survival analyses; the non-crossover placebo comparator is small, self-selected and non-randomised."
+      ],
+      "links": [
+        {
+          "label": "NeurologyLive (7 Nov 2026)",
+          "url": "https://www.neurologylive.com/view/als-agent-dazucorilant-associated-lower-2-year-mortality-exploratory-dazals-analysis",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-episod1-amt162-final",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-11-04",
+      "added": "2026-11-09",
+      "source": "NeurologyLive (NEALS 2026)",
+      "type": "Conference report",
+      "title": "Final EPISOD1 data for discontinued SOD1-ALS gene therapy AMT-162",
+      "summary": "uniQure investigators presented final safety and biomarker results from the first-in-human EPISOD1 trial of intrathecal AMT-162 (an AAVrh10 vector carrying a microRNA against SOD1); the programme was stopped on benefit–risk grounds.",
+      "points": [
+        "Open-label single ascending dose phase 1/2 (NCT06100276); 5 participants dosed (3 low dose, 2 mid dose); 5-year safety follow-up planned.",
+        "One grade 3 serious sensory-predominant neuropathy in the mid-dose cohort was classed as dose-limiting; grade 2 sensory events occurred in one low-dose participant.",
+        "CSF SOD1 fell below baseline in 4 of 5 and CSF NfL in 3 of 5 at 6–12 months; magnitudes were not reported."
+      ],
+      "caveats": [
+        "Conference data reported in specialist press; very small sample."
+      ],
+      "links": [
+        {
+          "label": "NeurologyLive (4 Nov 2026)",
+          "url": "https://www.neurologylive.com/view/final-results-reported-episod1-trial-sod1-als-gene-therapy-amt-162",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-05-qrl201-anqur-neals",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-11-05",
+      "added": "2026-11-09",
+      "source": "NeurologyLive (NEALS 2026)",
+      "type": "Conference report",
+      "title": "QurAlis presents full ANQUR phase 1 data for STMN2-targeting antisense QRL-201; UK extension under review",
+      "summary": "The full phase 1 ANQUR dataset for QRL-201 was presented at NEALS; the company reports target engagement and an NfL reduction and plans a pivotal phase 3 in 2027.",
+      "points": [
+        "First-in-human multiple ascending dose and dose-range-finding study (NCT05633459) in sporadic and C9orf72 ALS; n = 69, 6:2 active:placebo; up to 5 intrathecal doses over 12 weeks.",
+        "Statistically significant NfL reduction in the low-dose group; trend towards slower ALSFRS-R decline (no figures given).",
+        "Open-label extension approved in Canada and under review in the UK and EU."
+      ],
+      "caveats": [
+        "Company and conference data; no numerical efficacy results reported; includes post hoc subgroup analysis.",
+        "Partly overlaps topline data released earlier in 2026."
+      ],
+      "links": [
+        {
+          "label": "NeurologyLive (5 Nov 2026)",
+          "url": "https://www.neurologylive.com/view/quralis-reports-anqur-interim-data-stathmin-2-targeting-agent-qrl-201-als",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-plasma-ten-protein-panel-als",
+      "section": "mnd",
+      "topics": [
+        "science"
+      ],
+      "kind": "study",
+      "date": "2026-11-02",
+      "added": "2026-11-09",
+      "source": "Nature Communications (via ALS News Today and Alamar Biosciences)",
+      "type": "News report of a peer-reviewed study",
+      "title": "Ten-protein plasma panel distinguished ALS from controls more accurately than NfL alone",
+      "summary": "Emory researchers report a 10-protein plasma signature, measured on the NULISAseq platform, that separated people with ALS from healthy controls more accurately than neurofilament light alone in a validation cohort.",
+      "design": "Discovery cohort 632 ALS and 160 controls; validation cohort 144 ALS and 37 controls; more than 300 CNS and inflammatory proteins profiled.",
+      "points": [
+        "Panel: NfL, NEFH, pTau-181, VEGFA, CALCA, NRGN, PTX3, TREM1, FOLR1, LAMP3.",
+        "Validation: balanced accuracy 98.3% (AUC 0.992) vs 89.9% (AUC 0.916) for NfL alone.",
+        "The panel identified some people with relatively little disability whom NfL alone missed."
+      ],
+      "caveats": [
+        "Figures are from a press release by Alamar, whose platform was used, and news coverage; the paper was not read.",
+        "Compared with healthy controls only, not disease mimics; validation controls n = 37.",
+        "Paper publication date not confirmed; press release dated 28 October 2026."
+      ],
+      "links": [
+        {
+          "label": "ALS News Today (2 Nov 2026)",
+          "url": "https://alsnewstoday.com/news/blood-protein-panel-may-offer-new-way-identify-als-study-finds/",
+          "quality": "secondary"
+        },
+        {
+          "label": "Alamar Biosciences press release (28 Oct 2026)",
+          "url": "https://www.globenewswire.com/news-release/2026/10/28/3390731/0/en/emory-researchers-identify-blood-protein-signature-that-detects-als-with-98-accuracy-using-alamar-technology.html",
+          "quality": "company"
+        }
+      ]
+    },
     {
       "id": "2026-10-26-re-program-functional-seizures-rct",
       "section": "research",
@@ -2614,6 +3117,20 @@
       "url": "https://www.biospace.com/press-releases/al-s-pharma-reports-new-ap-101-phase-2-weight-data-and-outlines-phase-3-clinical-trial-in-als-at-2026-neals-annual-meeting"
     },
     {
+      "date": "2027-06-30",
+      "approx": true,
+      "section": "mnd",
+      "title": "Dazucorilant phase 3 planned to start (2027)",
+      "url": "https://www.neurologylive.com/view/als-agent-dazucorilant-associated-lower-2-year-mortality-exploratory-dazals-analysis"
+    },
+    {
+      "date": "2027-06-30",
+      "approx": true,
+      "section": "mnd",
+      "title": "QRL-201 pivotal phase 3 planned (2027)",
+      "url": "https://www.neurologylive.com/view/quralis-reports-anqur-interim-data-stathmin-2-targeting-agent-qrl-201-als"
+    },
+    {
       "date": "2027-07-18",
       "end": "2027-07-21",
       "section": "research",
@@ -2635,6 +3152,14 @@
       "title": "PREVAiLS (pridopidine) topline results expected (Q1 2028)",
       "tracker": "pridopidine",
       "url": "https://s202.q4cdn.com/210612175/files/doc_news/Prilenia-and-Ferrer-to-Share-New-Pridopidine-Data-and-PREVAiLS-Study-Updates-at-the-NEALS-Consortium-2026-Annual-Meeting-2026.pdf"
+    },
+    {
+      "date": "2029-06-30",
+      "approx": true,
+      "section": "practice",
+      "title": "First BRAINIAC brain health clinics expected to open (2029)",
+      "tracker": "dementia-diagnosis",
+      "url": "https://news.exeter.ac.uk/faculty-of-health-and-life-sciences/exeter-led-20-million-hub-will-create-ten-brain-health-clinics-to-help-nhs-reduce-dementia-risk/"
     }
   ]
 }
