@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T06:54:57Z",
-  "next_update": "2026-11-16",
+  "generated_at": "2026-11-16T06:53:58Z",
+  "next_update": "2026-11-23",
   "about": "A personal tracker of clinical neuropsychology research and UK practice developments, with a dedicated section on motor neurone disease. Each item is a neutral summary of a published study or public document: for research, the design, findings and stated limitations; for policy, what it says, who it affects and when. Every item links to its source.",
   "coverage_note": "Seed edition covering publications up to 26 October 2026, weighted to the preceding three months. Updated every Monday.",
   "ahead_blurb": "Conferences, decision dates, deadlines and expected trial readouts across all three sections.",
@@ -161,14 +161,14 @@
       "name": "DHSC / GOV.UK",
       "section": "practice",
       "url": "https://www.gov.uk/government/organisations/department-of-health-and-social-care",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "nice",
       "name": "NICE — guidance in development",
       "section": "practice",
       "url": "https://www.nice.org.uk/guidance/inprogress",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "parliament",
@@ -203,7 +203,7 @@
       "name": "Headway — news and campaigns",
       "section": "practice",
       "url": "https://www.headway.org.uk/news-and-campaigns/news/",
-      "status": "checked"
+      "status": "unreachable"
     },
     {
       "id": "mclp",
@@ -231,7 +231,7 @@
       "name": "MND-SMART",
       "section": "mnd",
       "url": "https://mnd-smart.org/",
-      "status": "unreachable"
+      "status": "checked"
     },
     {
       "id": "experts-als",
@@ -348,7 +348,7 @@
           "approx": true
         }
       ],
-      "next": "DHSC says it will publish further interim guidance with case studies. This feed found no published LPS consultation, revised MCA Code of Practice or further DHSC guidance as of 9 November 2026; the DHSC guidance page was last updated on 22 September 2026.",
+      "next": "DHSC says it will publish further interim guidance with case studies. This feed found no published LPS consultation, revised MCA Code of Practice or further DHSC guidance as of 16 November 2026; the DHSC guidance page could not be read this week (last seen updated 22 September 2026).",
       "bodies": [
         "UK Supreme Court",
         "DHSC",
@@ -386,7 +386,7 @@
           "quality": "secondary"
         }
       ],
-      "updated": "2026-11-09"
+      "updated": "2026-11-16"
     },
     {
       "id": "amyloid-mabs",
@@ -403,7 +403,8 @@
       "points": [
         "NICE's June 2025 position: benefits for MCI or mild dementia due to AD too small to justify the cost.",
         "Appeal panels upheld grounds on infusion-cost estimates and carer utility values for both drugs, plus two procedural points for donanemab.",
-        "As of 29 July 2026, Eisai had accepted the committee's assumptions as the basis for commercial talks with NHS England; Lilly had not."
+        "As of 29 July 2026, Eisai had accepted the committee's assumptions as the basis for commercial talks with NHS England; Lilly had not.",
+        "The Telegraph reported on 8 November 2026 that the commercial talks appeared to have reached an impasse and that NHS England had written to the Health Secretary about how to proceed; DHSC said NICE was still evaluating both drugs."
       ],
       "timeline": [
         {
@@ -440,6 +441,11 @@
           "date": "2026-07-29",
           "label": "NICE, Eisai, Lilly and NHS England give status updates on talks",
           "done": true
+        },
+        {
+          "date": "2026-11-08",
+          "label": "Press reports talks stalled; NHS England writes to Health Secretary",
+          "done": true
         }
       ],
       "next": "No committee date or decision deadline has been set. Alzheimer's Research UK has proposed a Dementia Drugs Fund to provide interim access.",
@@ -474,9 +480,14 @@
           "label": "Lilly — Kisunla (donanemab) receives GB marketing authorisation",
           "url": "https://lilly.gcs-web.com/news-releases/news-release-details/lillys-kisunlatm-donanemab-azbt-receives-marketing-authorization",
           "quality": "company"
+        },
+        {
+          "label": "The Telegraph via AOL — Cameron: end NHS dementia drug block (8 Nov 2026)",
+          "url": "https://www.aol.com/articles/cameron-end-nhs-dementia-drug-210016000.html",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-16"
     },
     {
       "id": "dementia-diagnosis",
@@ -581,7 +592,8 @@
       "points": [
         "The government pledged an action plan for 2025, then in December 2025 committed to publication by the end of June 2026.",
         "Headway reported on 1 July 2026 that the deadline had passed with no update on timing.",
-        "This feed found no publication as of 26 October 2026."
+        "A DHSC contract notice (11 May 2026) records a contract with UKABIF to provide expertise to strengthen and speed up development of the plan.",
+        "This feed found no publication as of 16 November 2026."
       ],
       "timeline": [
         {
@@ -614,9 +626,14 @@
           "label": "Hansard — Acquired Brain Injury Action Plan debate (4 Dec 2025)",
           "url": "https://hansard.parliament.uk/commons/2025-12-04/debates/25120424000001/AcquiredBrainInjuryActionPlan",
           "quality": "official"
+        },
+        {
+          "label": "Find a Tender — DHSC ABI Action Plan 2026 contract with UKABIF",
+          "url": "https://www.find-tender.service.gov.uk/procurement/ocds-h6vhtk-069609",
+          "quality": "official"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-16"
     },
     {
       "id": "assisted-dying",
@@ -847,7 +864,7 @@
       "summary": "UK MND Research Institute platform that screens repurposed drugs by their effect on serum neurofilament light; drugs that lower NfL advance to phase 3.",
       "points": [
         "Dropped so far: metformin and nifedipine (August 2026), ropinirole (October 2026).",
-        "Still recruiting: salbutamol and doxycycline. Further candidates are being identified.",
+        "Still recruiting: salbutamol and doxycycline. Neflamapimod (CervoMed; selected February 2026) and RT1999/smilagenin (named March 2026) have been selected as future arms.",
         "Funded by NIHR, the MND Association, LifeArc and My Name'5 Doddie Foundation.",
         "The study-progress page (updated 29 October 2026) lists doxycycline and salbutamol, shows recruitment temporarily paused, and reports 232 consented and 183 randomised."
       ],
@@ -861,9 +878,16 @@
           "date": "2026-10-12",
           "label": "Ropinirole dropped after interim analysis",
           "done": true
+        },
+        {
+          "date": "2027-03",
+          "date_label": "Q1 2027",
+          "label": "First participant expected to be dosed with neflamapimod",
+          "done": false,
+          "approx": true
         }
       ],
-      "next": "New drugs to be added; salbutamol and doxycycline continue to interim analysis.",
+      "next": "Salbutamol and doxycycline continue to interim analysis; CervoMed said on 9 November 2026 that it expects first neflamapimod dosing in Q1 2027.",
       "bodies": [
         "UK MND Research Institute",
         "NIHR",
@@ -889,9 +913,19 @@
           "label": "EXPERTS-ALS — study progress",
           "url": "https://www.experts-als.uk/study-progress",
           "quality": "secondary"
+        },
+        {
+          "label": "CervoMed Q3 2026 results and corporate update (9 Nov 2026)",
+          "url": "https://www.globenewswire.com/news-release/2026/11/09/3398299/0/en/cervomed-reports-third-quarter-2026-financial-results-and-provides-corporate-updates.html",
+          "quality": "company"
+        },
+        {
+          "label": "UK MND Research Institute: neflamapimod to be evaluated through EXPERTS-ALS (24 Feb 2026)",
+          "url": "https://ukmndri.org/2026/02/24/neflamapimod-to-be-evaluated-through-experts-als-platform/",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-11-09"
+      "updated": "2026-11-16"
     },
     {
       "id": "mnd-smart",
@@ -903,7 +937,7 @@
       "name": "MND-SMART platform (UK)",
       "short": "MND-SMART",
       "stage": "phase3",
-      "stage_label": "Tacrolimus arm recruiting; next drug due",
+      "stage_label": "Tacrolimus arm recruiting; fifth drug aimed for early 2027",
       "summary": "Multi-arm, multi-stage phase 3 platform testing repurposed drugs for disease progression and survival, open at 27 UK centres.",
       "points": [
         "Memantine and trazodone arms stopped for lack of benefit in 2023; amantadine stopped in March 2026.",
@@ -927,13 +961,19 @@
           "done": true
         },
         {
-          "date": "2026-12",
-          "label": "Next drug scheduled to join (later in 2026)",
+          "date": "2026-08-28",
+          "label": "Trial opens at the Rob Burrow Centre for MND, Leeds",
+          "done": true
+        },
+        {
+          "date": "2027-03",
+          "date_label": "Early 2027",
+          "label": "Fifth drug aimed to join",
           "done": false,
           "approx": true
         }
       ],
-      "next": "A further drug, not yet named publicly, is due to join later in 2026.",
+      "next": "The trial team aims to add a fifth drug, not yet named, in early 2027 (MND-SMART news, 28 August 2026).",
       "bodies": [
         "University of Edinburgh",
         "MND Association"
@@ -953,9 +993,14 @@
           "label": "MND-SMART — update on memantine, trazodone and placebo arms (27 Sep 2023)",
           "url": "https://mnd-smart.org/node/65",
           "quality": "secondary"
+        },
+        {
+          "label": "MND-SMART: launch at the Rob Burrow Centre for MND (28 Aug 2026)",
+          "url": "https://mnd-smart.org/news/mnd-smart-launches-rob-burrow-centre-for-motor-neurone-disease",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-16"
     },
     {
       "id": "combat-als",
@@ -992,7 +1037,7 @@
           "approx": true
         }
       ],
-      "next": "Topline results expected by the end of 2026; MediciNova said on 12 October that it remained on track. No readout found as of 9 November 2026.",
+      "next": "Topline results expected by the end of 2026. No readout found as of 16 November 2026; MediciNova's third-quarter Form 10-Q (signed 12 November 2026) reports no COMBAT-ALS results.",
       "bodies": [
         "MediciNova"
       ],
@@ -1011,9 +1056,14 @@
           "label": "MediciNova CEO shareholder update (12 Oct 2026)",
           "url": "https://www.globenewswire.com/news-release/2026/10/12/3378753/0/en/medicinova-ceo-provides-shareholder-update.html",
           "quality": "company"
+        },
+        {
+          "label": "MediciNova Form 10-Q, Q3 2026 (signed 12 Nov 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001226616/000119312526458562/mnov-20260930.htm",
+          "quality": "official"
         }
       ],
-      "updated": "2026-11-09"
+      "updated": "2026-11-16"
     },
     {
       "id": "ap-101",
@@ -1072,7 +1122,8 @@
       "points": [
         "NeuroSense reports its phase 2b met a primary endpoint of reduced blood TDP-43.",
         "The MND Association notes the analysis is unpublished and the trial was not designed to establish efficacy.",
-        "NeuroSense says the FDA has cleared it to start the pivotal phase 3 PARAGON trial, to run mainly in the US; design details have not been published."
+        "NeuroSense says the FDA has cleared it to start the pivotal phase 3 PARAGON trial, to run mainly in the US; design details have not been published.",
+        "NeuroSense plans a New Drug Submission to Health Canada, now targeted for March 2027 (previously December 2026) to include a new NfL analysis from PARADIGM; the company says Health Canada has no concerns with the revised timing."
       ],
       "timeline": [
         {
@@ -1086,13 +1137,25 @@
           "done": true
         },
         {
+          "date": "2026-11-02",
+          "label": "NeuroSense moves Health Canada submission target to March 2027",
+          "done": true
+        },
+        {
           "date": "2027",
           "label": "PARAGON phase 3 start (no date given)",
           "done": false,
           "approx": true
+        },
+        {
+          "date": "2027-03",
+          "date_label": "Mar 2027",
+          "label": "Target date for New Drug Submission to Health Canada",
+          "done": false,
+          "approx": true
         }
       ],
-      "next": "PARAGON design and start date; the company says timing may be delayed and depends partly on grant funding.",
+      "next": "Health Canada submission targeted for March 2027; PARAGON design and start date not given, and the company says timing may be delayed and depends partly on grant funding.",
       "bodies": [
         "NeuroSense"
       ],
@@ -1111,9 +1174,14 @@
           "label": "NeuroSense press release via PR Newswire (29 Oct 2026)",
           "url": "https://www.prnewswire.com/news-releases/neurosense-to-present-integrated-clinical-and-biomarker-evidence-shaping-primecs-phase-3-development-at-neals-2026-302923937.html",
           "quality": "company"
+        },
+        {
+          "label": "NeuroSense press release via PR Newswire (2 Nov 2026)",
+          "url": "https://www.prnewswire.com/il/news-releases/neurosense-to-strengthen-primec-canadian-als-submission-with-new-nfl-data-302926488.html",
+          "quality": "company"
         }
       ],
-      "updated": "2026-11-02"
+      "updated": "2026-11-16"
     },
     {
       "id": "trcn-1023",
@@ -1125,20 +1193,29 @@
       "name": "TRCN-1023 (UNC13A antisense)",
       "short": "TRCN-1023",
       "stage": "phase1",
-      "stage_label": "First-in-human trial approved (UK, Netherlands)",
+      "stage_label": "Phase 1/2 FUNCTION ALS trial dosing (UK, Europe, China)",
       "summary": "Antisense oligonucleotide that the developer describes as designed to restore UNC13A function.",
       "points": [
         "Trace Neuroscience received approval for a small first-in-human trial in the UK and the Netherlands.",
-        "The MND Association noted the UK arm was still in set-up and safety is unproven."
+        "The MND Association noted the UK arm was still in set-up and safety is unproven.",
+        "King's College London reported on 11 November 2026 that TRCN-1023 is in the phase 1/2 FUNCTION ALS trial in the UK, Europe and China, with the first UK participants dosed in October 2026 (UCL a site).",
+        "A Nature paper (Keuss et al., November 2026) reported that correcting UNC13A mis-splicing restored synaptic signalling in human neurons with TDP-43 loss."
       ],
       "timeline": [
         {
           "date": "2026-06-24",
           "label": "Clinical development programme approved to begin",
           "done": true
+        },
+        {
+          "date": "2026-10",
+          "date_label": "Oct 2026",
+          "label": "First UK participants dosed in FUNCTION ALS",
+          "done": true,
+          "approx": true
         }
       ],
-      "next": "UK site set-up and first dosing.",
+      "next": "Further enrolment; no results date announced.",
       "bodies": [
         "Trace Neuroscience"
       ],
@@ -1152,9 +1229,14 @@
           "label": "MND Association — latest MND research news",
           "url": "https://www.mndassociation.org/research/latest-news",
           "quality": "secondary"
+        },
+        {
+          "label": "King's College London press release via EurekAlert (11 Nov 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1150803",
+          "quality": "secondary"
         }
       ],
-      "updated": "2026-10-26"
+      "updated": "2026-11-16"
     },
     {
       "id": "pridopidine",
@@ -1216,6 +1298,311 @@
     }
   ],
   "updates": [
+    {
+      "id": "2026-11-12-ewcop-cd-hoarding-capacity",
+      "section": "practice",
+      "topics": [
+        "capacity"
+      ],
+      "kind": "policy",
+      "date": "2026-11-12",
+      "added": "2026-11-16",
+      "source": "Court of Protection",
+      "type": "Judgment",
+      "title": "Court of Protection: social worker's capacity assessment held sufficient in a severe hoarding case; TDB does not require psychologist or psychiatrist evidence",
+      "summary": "In Nottingham City Council v CD [2026] EWCOP 60 (T2), HHJ Rogers refused a request for expert evidence and a wider review of capacity after a court-ordered clearance of the home of a 65-year-old woman with severe hoarding disorder, and concluded the proceedings.",
+      "points": [
+        "Earlier in the proceedings the court had declared that CD lacked capacity to litigate, to decide on clearing her property, and on care and residence during the clearance; she was temporarily moved to a care home and later returned home.",
+        "Following A Local Authority v JB [2021] UKSC 35, the judge held capacity findings serve specific best-interests decisions; a broad review across many domains was not a live issue and the court should not act as an open-ended supervisor.",
+        "He rejected the argument that the local authority's social worker assessor was unsuitable for not being a hoarding specialist or independent expert; a suitably experienced social worker could assess capacity where the diagnosis was not in doubt.",
+        "TDB [2026] EWCA Civ 1184 was distinguished as a fact-specific Care Act case that does not change Court of Protection practice on expert evidence or require a psychiatrist or psychologist in complex cases."
+      ],
+      "who": "Psychologists and other professionals asked to assess or give expert evidence on capacity in self-neglect and hoarding cases; local authority assessors and Court of Protection practitioners.",
+      "dates": [
+        "Judgment 12 November 2026 (per the Mental Capacity Law and Policy case list)",
+        "commentary 14 November 2026."
+      ],
+      "links": [
+        {
+          "label": "Mental Capacity Law and Policy (39 Essex Chambers) — commentary, 14 Nov 2026",
+          "url": "https://www.mentalcapacitylawandpolicy.org.uk/capacity-hoarding-and-the-second-coming-of-the-care-act/",
+          "quality": "secondary"
+        },
+        {
+          "label": "National Archives — Nottingham City Council v CD [2026] EWCOP 60 (T2)",
+          "url": "https://caselaw.nationalarchives.gov.uk/ewcop/t2/2026/60",
+          "quality": "official"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-nbse-one-hour-battery-va-memory-clinic",
+      "section": "research",
+      "topics": [
+        "assessment",
+        "dementia"
+      ],
+      "kind": "study",
+      "date": "2026-11-11",
+      "added": "2026-11-16",
+      "source": "Neurology Open Access",
+      "type": "Retrospective clinical cohort",
+      "title": "One-hour neurobehavioural status exam reclassified many veterans with 'normal' MoCA scores as MCI or dementia",
+      "summary": "In a Veterans Affairs memory clinic series, a one-hour cognitive battery identified MCI or dementia in about half of patients whose MoCA scores fell in the normal range, and new mood symptoms in about 30%.",
+      "design": "Analysis of results from 1,858 veterans assessed with a one-hour neurobehavioural status exam (NBSE), including mood screening, at a VA memory clinic between 2017 and 2025, compared with MoCA classification; delivered in person, by video and by telephone.",
+      "points": [
+        "Sample: 1,858 veterans seen in a VA memory clinic, 2017–2025.",
+        "Among veterans scoring in the MoCA 'normal' range, about 40% met NBSE classification for MCI and nearly 9% for dementia.",
+        "Mood screening within the NBSE identified depression or anxiety symptoms not previously recorded in roughly 30% of patients.",
+        "The authors report the battery was feasible in routine care across in-person, video and telephone appointments."
+      ],
+      "caveats": [
+        "All figures come from the Boston University press release, not the paper; the release gives no sensitivity, specificity, AUC or confidence intervals.",
+        "The release does not state the MoCA cut-off used, the diagnostic criteria for MCI or dementia, or the domains covered by the NBSE beyond mood screening.",
+        "The release does not report an independent reference standard (for example biomarkers or a full neuropsychological assessment) against which both instruments were judged.",
+        "Single-system US veteran sample; the release's method label (randomised trial) conflicts with its description of a clinic-records analysis."
+      ],
+      "links": [
+        {
+          "label": "Frank et al., Neurology Open Access (11 Nov 2026), DOI 10.1212/WN9.0000000000000195",
+          "url": "https://doi.org/10.1212/WN9.0000000000000195",
+          "quality": "peer"
+        },
+        {
+          "label": "Boston University press release via EurekAlert! (12 Nov 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1151707",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-unc13a-splice-correction-nature",
+      "section": "mnd",
+      "topics": [
+        "science"
+      ],
+      "kind": "study",
+      "date": "2026-11-11",
+      "added": "2026-11-16",
+      "source": "Nature",
+      "type": "Laboratory study (human neurons)",
+      "title": "Correcting UNC13A mis-splicing restored synaptic signalling in human neurons with TDP-43 loss",
+      "summary": "In human neurons modelling TDP-43 loss of function, an antisense oligonucleotide that corrected a single UNC13A splicing error restored functional UNC13A protein and communication between neurons.",
+      "design": "Laboratory study in human neurons in which TDP-43 function was lost; live imaging of neuronal signalling; splice-switching antisense oligonucleotide (ASO) designed against the UNC13A mis-splicing event. Keuss et al.; King's College London, UCL, Francis Crick Institute, Leibniz-FMP and Trace Neuroscience.",
+      "points": [
+        "Loss of TDP-43 function produced errors in UNC13A production, and this sharply reduced communication between neurons.",
+        "Correcting that one splicing error restored functional UNC13A protein and neuronal signalling.",
+        "The release notes that this addresses one of the hundreds of RNA events disrupted by TDP-43 loss.",
+        "A related ASO from Trace Neuroscience, TRCN-1023, is in the phase 1/2 FUNCTION ALS trial; according to the release, the first UK participants were dosed in October 2026, with UCL as a site."
+      ],
+      "caveats": [
+        "Findings here are taken from the King's College London press release (via EurekAlert) and a news report; the Nature article itself could not be read, so no quantitative results are given.",
+        "In vitro study; no clinical data.",
+        "Trace Neuroscience, the developer of TRCN-1023, is among the participating organisations and funders."
+      ],
+      "tracker": "trcn-1023",
+      "links": [
+        {
+          "label": "Keuss et al., Nature (2026): UNC13A splice correction rescues synaptic dysfunction induced by TDP-43 loss",
+          "url": "https://www.nature.com/articles/s41586-026-11256-2",
+          "quality": "peer"
+        },
+        {
+          "label": "King's College London press release via EurekAlert (11 Nov 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1150803",
+          "quality": "secondary"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-vectory-pioneer-als-funding",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "news",
+      "date": "2026-11-11",
+      "added": "2026-11-16",
+      "source": "European Biotechnology Magazine",
+      "type": "Company news",
+      "title": "VectorY raises €74.5m to continue PIONEER-ALS, a phase 1/2 trial of anti-TDP-43 gene therapy VTx-002",
+      "summary": "VectorY Therapeutics raised €74.5m, including a €30m European Investment Bank convertible loan, to continue PIONEER-ALS, an open-label phase 1/2 study of VTx-002, an AAV vector that has CNS cells produce antibodies against abnormal TDP-43.",
+      "points": [
+        "PIONEER-ALS began dosing in February 2026; enrolment was increased from 12 to 36 participants in September, testing two dose levels in the US and Europe.",
+        "The UK has a favourable ethics opinion (South Central – Oxford A REC, 25 March 2026): a single cisterna magna injection under general anaesthesia, with sequential low- then high-dose cohorts.",
+        "No readout date has been disclosed. Investors include Eli Lilly, Forbion, EQT Life Sciences, Angelini Ventures and Invest-NL."
+      ],
+      "caveats": [
+        "Financing news reported in trade press; no efficacy or safety data released.",
+        "Open-label, uncontrolled dose-escalation study. The HRA summary reflects the original 12-participant design."
+      ],
+      "links": [
+        {
+          "label": "European Biotechnology Magazine (11 Nov 2026)",
+          "url": "https://european-biotechnology.com/latest-news/vectory-secures-e74-5m-to-advance-als-gene-therapy-trial/",
+          "quality": "secondary"
+        },
+        {
+          "label": "HRA research summary: VTx-002-01-001 (PIONEER-ALS)",
+          "url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/vtx-002-01-001-pioneer-als/",
+          "quality": "official"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-bvftd-personality-function",
+      "section": "research",
+      "also": [
+        "mnd"
+      ],
+      "topics": [
+        "dementia",
+        "assessment",
+        "cognition"
+      ],
+      "kind": "study",
+      "date": "2026-11-10",
+      "added": "2026-11-16",
+      "source": "Neurology",
+      "type": "Observational study",
+      "title": "Current personality, especially low conscientiousness, associated with everyday functioning in early bvFTD",
+      "summary": "In 111 people with early behavioural-variant frontotemporal dementia, informant-rated current personality accounted for about 40% of the variance in functional scores; pre-onset personality was not associated with function.",
+      "design": "UCSF study of 111 people with early-stage bvFTD (mean age 63). Informants rated Big Five personality traits currently and retrospectively for about 10 years before onset, and rated ability to manage 10 complex daily activities (e.g. finances, shopping, meal preparation) over the previous month.",
+      "points": [
+        "Current personality traits accounted for approximately 40% of the variation in functional scores.",
+        "Conscientiousness was the only trait independently associated with everyday functioning; lower conscientiousness was linked to worse function.",
+        "Personality recalled for about 10 years before onset was not associated with daily functioning.",
+        "All five traits changed after onset: openness, conscientiousness, extraversion and agreeableness decreased; neuroticism increased."
+      ],
+      "caveats": [
+        "Figures come from the American Academy of Neurology press release; the paper title, effect sizes and confidence intervals were not available.",
+        "Association only; the authors state the study does not show that personality change causes functional decline.",
+        "The same informants rated both personality and functioning, which the authors note could inflate the association; pre-onset personality was rated retrospectively.",
+        "Relevant to the ALS–FTD spectrum but the sample was bvFTD without stated motor neurone involvement."
+      ],
+      "links": [
+        {
+          "label": "American Academy of Neurology press release via EurekAlert! (10 Nov 2026)",
+          "url": "https://www.eurekalert.org/news-releases/1150684",
+          "quality": "secondary"
+        },
+        {
+          "label": "News-Medical report (12 Nov 2026)",
+          "url": "https://www.news-medical.net/news/20261112/Researchers-associate-personality-shifts-with-frontotemporal-dementia-functional-decline.aspx",
+          "quality": "lower"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-nun004-phase2",
+      "section": "mnd",
+      "topics": [
+        "trials"
+      ],
+      "kind": "trial",
+      "date": "2026-11-10",
+      "added": "2026-11-16",
+      "source": "NuNerve (press release)",
+      "type": "Trial launch",
+      "title": "NUN-004 (EphA4 inhibitor) moves to a placebo-controlled phase 2 trial in Australia",
+      "summary": "NuNerve, a Queensland biotechnology company, announced a 75-participant randomised, placebo-controlled phase 2 trial of NUN-004, a long-acting protein-based EphA4 inhibitor, at six Australian sites.",
+      "points": [
+        "Randomisation 2:1 to NUN-004 or placebo for 24 weeks (blinded), then a 24-week open-label period in which all participants receive NUN-004.",
+        "Primary outcome: change in ALSFRS-R; other measures include safety, respiratory, nerve and muscle function, quality of life and biomarkers.",
+        "Sites: Sunshine Coast, Brisbane, Sydney, Newcastle, Melbourne and Perth; no sites outside Australia named.",
+        "The preceding phase 1/1b study enrolled 20 healthy volunteers and 8 people with ALS; the release gives no efficacy figures from it."
+      ],
+      "caveats": [
+        "Company press release; the trial registration and the phase 1 publication were not read for this item.",
+        "No UK sites announced."
+      ],
+      "links": [
+        {
+          "label": "NuNerve press release via GlobeNewswire (10 Nov 2026)",
+          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399225/0/en/australian-als-therapy-aimed-at-halting-disease-progression-and-restoring-function-advances-to-phase-2-trial.html",
+          "quality": "company"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-dementia-specialists-services-amyloid-access",
+      "section": "practice",
+      "topics": [
+        "dementia-care"
+      ],
+      "kind": "news",
+      "date": "2026-11-09",
+      "added": "2026-11-16",
+      "source": "The Telegraph",
+      "type": "News report",
+      "title": "Dementia specialists and Lord Cameron call for NHS dementia service overhaul and access to anti-amyloid drugs",
+      "summary": "The Telegraph reported that Lord Cameron and 48 dementia specialists and former health ministers called for an end to the NHS block on lecanemab and donanemab, alongside a specialist-led call for a stroke-style reorganisation of dementia services.",
+      "points": [
+        "Prof Jonathan Schott (UCL; Alzheimer's Research UK) and 47 other specialists set out five demands, including a maximum 18-week wait for diagnosis, regional networks, common standards, wider access to specialist tests and blood biomarkers such as p-tau217.",
+        "The piece states that only about 2% of people with dementia in the UK can access amyloid PET or lumbar puncture to confirm Alzheimer's disease.",
+        "The report says commercial talks on lecanemab and donanemab that began in July appear to have reached an impasse, and that NHS England wrote to the Health Secretary about a week earlier on how to proceed.",
+        "A DHSC spokesperson said NICE is evaluating both treatments; the specialists asked that dementia be kept distinct from frailty in the forthcoming Modern Service Framework."
+      ],
+      "who": "Memory services, neurologists and neuropsychologists involved in early Alzheimer's diagnosis and treatment eligibility.",
+      "dates": [
+        "Reported 8–9 November 2026."
+      ],
+      "tracker": "amyloid-mabs",
+      "links": [
+        {
+          "label": "The Telegraph via Yahoo News — NHS must replicate 'stroke care revolution' for dementia (9 Nov 2026)",
+          "url": "https://www.yahoo.com/news/science/articles/nhs-must-replicate-stroke-care-200000894.html",
+          "quality": "secondary"
+        },
+        {
+          "label": "The Telegraph via AOL — Cameron: end NHS dementia drug block (8 Nov 2026)",
+          "url": "https://www.aol.com/articles/cameron-end-nhs-dementia-drug-210016000.html",
+          "quality": "secondary"
+        }
+      ],
+      "caveats": [
+        "Status of the commercial talks and the NHS England letter come from a newspaper report, not from NICE or NHS England statements; this feed could not read the NICE appraisal pages this run."
+      ]
+    },
+    {
+      "id": "2026-11-06-ewcop-rfa-canh-mcs",
+      "section": "practice",
+      "topics": [
+        "capacity",
+        "end-of-life"
+      ],
+      "kind": "policy",
+      "date": "2026-11-06",
+      "added": "2026-11-16",
+      "source": "Court of Protection",
+      "type": "Judgment",
+      "title": "Court of Protection: continuing CANH held to be in the best interests of a woman in MCS plus five years after brain injury",
+      "summary": "In NHS South West London ICB v RFA [2026] EWCOP 59 (T3), McKendrick J held that continuing clinically assisted nutrition and hydration was currently in the best interests of a 60-year-old woman in a minimally conscious state (MCS plus), describing the balance as fine.",
+      "points": [
+        "RFA has a catastrophic brain injury after a reaction to a COVID-19 vaccination; she has a permanent tracheostomy and PEG and cannot reliably communicate yes or no. Recovery was judged less likely than likely five years on.",
+        "The court found CANH was not currently futile or unduly burdensome: she appeared calm and pain-free, responded to family, music and outings, and showed some communicative intent. No health body argued for withdrawal.",
+        "Family members disagreed about her past wishes; the judge did not resolve this and could not conclude she would have wanted her life to end. Sanctity of life helped fill residual evidential doubt.",
+        "The judge declined s.16 orders on treatment escalation, PEG replacement and DNACPR (treating DNACPR as a clinical matter) and treated RCP PDOC re-evaluation intervals as guidance rather than rules.",
+        "He said the applicant ICB and the treating hospital had taken neutral positions, and that evidence from the clinician responsible for the decision would assist the court more."
+      ],
+      "who": "Clinicians assessing or giving evidence on people with prolonged disorders of consciousness, including neuropsychologists contributing to awareness and best-interests assessments; ICBs and treating units bringing CANH applications.",
+      "dates": [
+        "Judgment 6 November 2026 (per the Mental Capacity Law and Policy case list)",
+        "commentary 14 November 2026."
+      ],
+      "links": [
+        {
+          "label": "Mental Capacity Law and Policy (39 Essex Chambers) — commentary, 14 Nov 2026",
+          "url": "https://www.mentalcapacitylawandpolicy.org.uk/the-court-of-protection-medical-treatment-and-challenges-to-received-wisdom/",
+          "quality": "secondary"
+        },
+        {
+          "label": "National Archives — NHS South West London ICB v RFA [2026] EWCOP 59 (T3)",
+          "url": "https://caselaw.nationalarchives.gov.uk/ewcop/t3/2026/59",
+          "quality": "official"
+        }
+      ]
+    },
     {
       "id": "2026-11-02-delirium-mcsa-mci-dementia",
       "section": "research",
@@ -3044,14 +3431,6 @@
     {
       "date": "2026-12-31",
       "approx": true,
-      "section": "mnd",
-      "title": "Next drug due to join MND-SMART (later in 2026)",
-      "tracker": "mnd-smart",
-      "url": "https://mnd-smart.org/node/139"
-    },
-    {
-      "date": "2026-12-31",
-      "approx": true,
       "section": "practice",
       "title": "Revised NHS England MCA/DoLS training materials due (by December)",
       "tracker": "dol-lps",
@@ -3081,10 +3460,34 @@
     },
     {
       "date": "2027-03-31",
+      "approx": true,
+      "section": "mnd",
+      "title": "Fifth drug aimed to join MND-SMART (early 2027)",
+      "tracker": "mnd-smart",
+      "url": "https://mnd-smart.org/news/mnd-smart-launches-rob-burrow-centre-for-motor-neurone-disease"
+    },
+    {
+      "date": "2027-03-31",
       "section": "mnd",
       "title": "PREVAiLS (pridopidine) recruitment completion expected (Q1 2027)",
       "tracker": "pridopidine",
       "url": "https://s202.q4cdn.com/210612175/files/doc_news/Prilenia-and-Ferrer-to-Share-New-Pridopidine-Data-and-PREVAiLS-Study-Updates-at-the-NEALS-Consortium-2026-Annual-Meeting-2026.pdf"
+    },
+    {
+      "date": "2027-03-31",
+      "approx": true,
+      "section": "mnd",
+      "title": "EXPERTS-ALS: first neflamapimod dosing expected (Q1 2027)",
+      "tracker": "experts-als",
+      "url": "https://www.globenewswire.com/news-release/2026/11/09/3398299/0/en/cervomed-reports-third-quarter-2026-financial-results-and-provides-corporate-updates.html"
+    },
+    {
+      "date": "2027-03-31",
+      "approx": true,
+      "section": "mnd",
+      "title": "PrimeC: target date for New Drug Submission to Health Canada (March 2027)",
+      "tracker": "primec",
+      "url": "https://www.prnewswire.com/il/news-releases/neurosense-to-strengthen-primec-canadian-als-submission-with-new-nfl-data-302926488.html"
     },
     {
       "date": "2027-05-12",
